@@ -11,7 +11,7 @@ def generateImage(selection):
     r = requests.post(
     "https://api.deepai.org/api/text2img",
     data={
-        'text': f'{selection},{newTags},dungeons and dragons, monster, fantasy theme, animated,',
+        'text': f'{selection},dungeons and dragons, monster, fantasy theme, animated,',
     },
     headers={'api-key': '0fe3d007-4d4e-420a-b796-4c01badcdbc9'})
 
