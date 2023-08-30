@@ -1,8 +1,11 @@
+from pathlib import Path
 import requests
 import numpy as np
 import pandas as pd
+import os
 
 
+folder_dir = os.path.join(Path(__file__).parents[0], 'data')
 class Base:
     """
     Class handles all connection to the API object and returns a dataframe
@@ -80,7 +83,7 @@ class Base:
         self.mon_csv=self.df_mon[['index','name','size','type','alignment','natural_ac','speed_walk','speed_swim','speed_fly','speed_burrow','strength','dexterity','constitution','intelligence','wisdom','charisma','challenge_rating','xp','image','desc']]
         self.mon_csv.rename(columns={'index': 'monster_id'}, inplace=True)
         self.mon_csv.rename(columns={'desc': 'descrip'}, inplace=True)
-        self.mon_csv.to_csv('src/data/monsters.csv',index=False)
+        self.mon_csv.to_csv(f'{folder_dir}/monsters.csv',index=False)
 
     def get_monster_resists(self):
         #now lets loop through and create a massive list for this.
@@ -108,7 +111,7 @@ class Base:
 
         self.df_resist = pd.DataFrame(resistances,columns=h)
         self.df_resist.head()
-        self.df_resist.to_csv('src/data/monster_resists.csv',index=False)
+        self.df_resist.to_csv(f'{folder_dir}/monster_resists.csv',index=False)
 
     def get_monster_characteristics(self):
         features=[]
@@ -160,7 +163,7 @@ class Base:
         self.df_characteristics= pd.DataFrame(features,columns=h)
 
         self.df_characteristics.head()
-        self.df_characteristics.to_csv(r'C:\Users\Logan\Documents\GitHub\5e_Companion\src\data\monster_characteristics.csv',index=False)
+        self.df_characteristics.to_csv(f'{folder_dir}\monster_characteristics.csv',index=False)
 
     def get_monster_actions(self):
         actions=[]
@@ -276,7 +279,7 @@ class Base:
             self.df_actions.loc[(self.df_actions['monster_id'] == i[0]) & (self.df_actions['action_name'] == i[1]), 'multi_attack_descrip'] = i[3]
 
         #create our data csv    
-        self.df_actions.to_csv('src/data/monster_actions.csv',index=False)
+        self.df_actions.to_csv(f'{folder_dir}/monster_actions.csv',index=False)
                 
         self.df_actions.head()
 
