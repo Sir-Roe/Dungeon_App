@@ -25,24 +25,32 @@ df.columns=df.columns.str.title().str.strip().str.replace('_',' ')
 mon_list = df['Name']
 selection = st.selectbox('Monster Select Box:', placeholder="Aboleth", options=sorted(mon_list))
 dfmaster = df[(df['Name']==selection)]
-
+col1t,col2t = st.columns(2)
 
 try:
     mimage = dfmaster['Image'][0]
-    st.image(f'https://www.dnd5eapi.co{mimage}')
+    col2t.image(f'https://www.dnd5eapi.co{mimage}')
     
 except:
    
     if os.path.isfile(f'{folder_dir}\{selection}.png'):
-        st.image(f'{folder_dir}\{selection}.png')
-        st.write("AI pre-Generated Image")
+        col2t.image(f'{folder_dir}\{selection}.png')
+        col2t.write("AI pre-Generated Image")
     else:
-        st.image(generateImage(selection))
-        st.write("AI New Generated Image")
+        col2t.image(generateImage(selection))
+        col2t.write("AI New Generated Image")
 
 #Description Block, completely worthless right now
-st.markdown("<h3 style='text-align: center;'>Description </h3>", unsafe_allow_html=True)
-st.write(''.join(str(val) for val in dfmaster['Descrip'].values))
+col1t.markdown("<h3 style='text-align: center;'>Description </h3>", unsafe_allow_html=True)
+if ''.join(str(val) for val in dfmaster['Descrip'].values) != "None":
+    col1t.write(''.join(str(val) for val in dfmaster['Descrip'].values))
+elif os.path.isfile(f'{folder_dir}\{selection}.txt'):
+    f = open(f'{folder_dir}\{selection}.txt','r')
+    col1t.write(f.read())
+    col1t.write('Deep AI pre-generated description')
+else:
+    col1t.write(generateDesc(selection))
+    col1t.write('Deep AI Generated description')
 #centered subheader
 
 st.markdown("<h2 style='text-align: center;'>Base Creature Stats </h2>", unsafe_allow_html=True)
