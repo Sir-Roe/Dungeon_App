@@ -32,8 +32,9 @@ try:
     st.image(f'https://www.dnd5eapi.co{mimage}')
     
 except:
-    if os.path.isfile(f'{folder_dir}/{selection}.png'):
-        st.image(f'{folder_dir}/{selection}.png')
+   
+    if os.path.isfile(f'{folder_dir}\{selection}.png'):
+        st.image(f'{folder_dir}\{selection}.png')
         st.write("AI pre-Generated Image")
     else:
         st.image(generateImage(selection))
