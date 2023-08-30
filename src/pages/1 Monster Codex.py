@@ -4,14 +4,14 @@ import streamlit as st
 import os
 import sys
 import numpy as np
-import openai
-import requests
+
 #--------------------Set File Path---------------
 filepath = os.path.join(Path(__file__).parents[1])
 sys.path.insert(0, filepath)
 folder_dir = os.path.join(Path(__file__).parents[1], 'data')
 #------------grab our sql functions-------
 from dnd_sql import PGSQL
+from aiscripts import *
 c= PGSQL()
 cursor= c.cur
 
@@ -26,21 +26,19 @@ mon_list = df['Name']
 selection = st.selectbox('Monster Select Box:', placeholder="Aboleth", options=sorted(mon_list))
 dfmaster = df[(df['Name']==selection)]
 
-#
-try:
-    mimage = dfmaster['(Image'][0]
-    st.image(f'https://www.dnd5eapi.co{mimage}')
-except:
-    r = requests.post(
-    "https://api.deepai.org/api/text2img",
-    data={
-        'text': 'dungeons and dragons, monster, fantasy theme, animated,black dragon',
-    },
-    headers={'api-key': '0fe3d007-4d4e-420a-b796-4c01badcdbc9'})
-    response = requests.get(r.json()['output_url'])
-    st.image(response)
 
-#
+try:
+    mimage = dfmaster['Image'][0]
+    st.image(f'https://www.dnd5eapi.co{mimage}')
+    
+except:
+    if os.path.isfile(f'{folder_dir}/{selection}.png'):
+        st.image(f'{folder_dir}/{selection}.png')
+        st.write("AI pre-Generated Image")
+    else:
+        st.image(generateImage(selection))
+        st.write("AI New Generated Image")
+
 #Description Block, completely worthless right now
 st.markdown("<h3 style='text-align: center;'>Description </h3>", unsafe_allow_html=True)
 st.write(''.join(str(val) for val in dfmaster['Descrip'].values))
