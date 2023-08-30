@@ -51,7 +51,7 @@ df_char.columns=df_char.columns.str.title().str.strip().str.replace('_',' ')
 col1,col2,col3 = st.columns(3)
 
 #we will be using df attack here and do some looping to make a clean list
-col1.image(f'{folder_dir}\sword.png')
+col1.image(f'{folder_dir}/sword.png')
 col1.write("<h3 style='text-align: center;'>|     Actions     |   </h3>", unsafe_allow_html=True)
 col1.write("---------------------------------------------")
 for index, row in df_attk.iloc[:,1:10].iterrows():
@@ -64,7 +64,7 @@ for index, row in df_attk.iloc[:,1:10].iterrows():
     col1.write("---------------------------------------------")
 
 #makecharacteristics table    
-col2.image(f'{folder_dir}\Brain.png')
+col2.image(f'{folder_dir}/Brain.png')
 col2.write("<h3 style='text-align: center;'>|  Characteristics|  </h3>", unsafe_allow_html=True)
 
 last_rowc2 =''
@@ -78,8 +78,7 @@ for index, row in df_char.iloc[:,1:].iterrows():
         if cell_value != np.nan and column_name!= 'Characteristic':
             col2.write(column_name + " : " + str(cell_value))
 #Build Resistances Tables
-col3.image(f'{folder_dir}\shields.png')
-col3.write((f'{folder_dir}\shields.png'))
+col3.image(f'{folder_dir}/shields.png')
 col3.write("<h3 style='text-align: center;'>|   Resistances   | </h3>", unsafe_allow_html=True)
 last_rowc3 =''
 for index, row in df_res.iloc[:,1:].iterrows():
