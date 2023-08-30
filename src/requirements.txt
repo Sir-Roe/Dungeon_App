@@ -58,3 +58,4 @@ watchdog==3.0.0
 zipp==3.16.2
 SQLAlchemy==2.0.20
 psycopg2-binary==2.9.7
+openai==0.27.10

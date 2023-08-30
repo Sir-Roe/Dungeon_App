@@ -4,6 +4,7 @@ import streamlit as st
 import os
 import sys
 import numpy as np
+import openai
 #--------------------Set File Path---------------
 filepath = os.path.join(Path(__file__).parents[1])
 sys.path.insert(0, filepath)
