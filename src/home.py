@@ -1,5 +1,8 @@
+from pathlib import Path
 import streamlit as st
+import os
 
+folder_dir = os.path.join(Path(__file__).parents[0], 'data')
 
 
 st.set_page_config(
@@ -13,7 +16,7 @@ st.set_page_config(
 
 
 st.markdown("<h1 style='text-align: center; '>DnD 5e Companion App</h1>", unsafe_allow_html=True)
-st.image('data/battle.jpg',width=800)
+st.image(f'{folder_dir}/battle.jpg',width=800)
 st.text("Logan Roe's capstone application utilizing the following:")
         
 st.text(""">Streamlit 
