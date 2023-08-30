@@ -8,7 +8,6 @@ import os
 
 folder_dir = os.path.join(Path(__file__).parents[0], 'data')
 def generateImage(selection):
-    newTags=input("type additional tags if any, comma seperated :")
     r = requests.post(
     "https://api.deepai.org/api/text2img",
     data={
