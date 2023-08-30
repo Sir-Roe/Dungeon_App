@@ -1,4 +1,7 @@
 import streamlit as st
+from pathlib import Path
+import os
+
 
 st.set_page_config(
     page_title="DnD 5e Companion App", #<------- Change this to the page you're currently on when copying/pasting after your imports
@@ -33,3 +36,7 @@ st.image('https://logos-world.net/wp-content/uploads/2021/12/DnD-Logo.png',width
 st.text("""
         A special thanks to the https://www.dnd5eapi.co/
         """)
+
+folder_dir = os.path.join(Path(__file__).parents[1], 'data')
+
+st.image(f'{folder_dir}\beholder.png',width=800)
