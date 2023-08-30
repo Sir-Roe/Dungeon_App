@@ -23,9 +23,10 @@ df.columns=df.columns.str.title().str.strip().str.replace('_',' ')
 mon_list = df['Name']
 selection = st.selectbox('Monster Select Box:', placeholder="Aboleth", options=sorted(mon_list))
 dfmaster = df[(df['Name']==selection)]
+mimage = dfmaster['image'][0]
 #
 try:
-    st.image(f'https://www.dnd5eapi.co/api/images/monsters/aboleth.png')
+    st.image(f'https://www.dnd5eapi.co{mimage}')
 except:
     st.write("none found")
 
