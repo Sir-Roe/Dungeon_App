@@ -60,7 +60,7 @@ st.data_editor(dfmaster[['Speed Walk','Speed Swim','Speed Fly','Speed Burrow']],
 
 #build our attack blocks
 monster_id= ''.join(str(val) for val in dfmaster['Monster Id'].values)
-st.write(monster_id)
+
 #grab selected table values
 df_attk= pd.read_sql(f"SELECT * FROM monster_actions where monster_id = '{monster_id}'",c.SQL_URL)
 df_attk.columns=df_attk.columns.str.title().str.strip().str.replace('_',' ')

@@ -8,7 +8,7 @@ st.set_page_config(
         Github account: \n\rLogan : https://github.com/Sir-Roe"""}
 )
 
-st.image('https://logos-world.net/wp-content/uploads/2021/12/DnD-Logo.png',width=80)
+st.image('https://logos-world.net/wp-content/uploads/2021/12/DnD-Logo.png',width=400)
 
 st.header("DnD 5e Companion App Summary")
 st.text("""
