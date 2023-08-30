@@ -38,5 +38,5 @@ st.text("""
         """)
 
 folder_dir = os.path.join(Path(__file__).parents[1], 'data')
-
-st.image(f'{folder_dir}\beholder.png',width=800)
+bh='beholder.png'
+st.image(f'{folder_dir}\{bh}',width=800)
