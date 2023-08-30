@@ -23,7 +23,13 @@ df.columns=df.columns.str.title().str.strip().str.replace('_',' ')
 mon_list = df['Name']
 selection = st.selectbox('Monster Select Box:', placeholder="Aboleth", options=sorted(mon_list))
 dfmaster = df[(df['Name']==selection)]
+#
+try:
+    st.image(f'https://www.dnd5eapi.co/api/images/monsters/aboleth.png')
+except:
+    st.write("none found")
 
+#
 #Description Block, completely worthless right now
 st.markdown("<h3 style='text-align: center;'>Description </h3>", unsafe_allow_html=True)
 st.write(''.join(str(val) for val in dfmaster['Descrip'].values))
