@@ -5,6 +5,7 @@ import os
 import sys
 import numpy as np
 import openai
+import requests
 #--------------------Set File Path---------------
 filepath = os.path.join(Path(__file__).parents[1])
 sys.path.insert(0, filepath)
@@ -24,12 +25,19 @@ df.columns=df.columns.str.title().str.strip().str.replace('_',' ')
 mon_list = df['Name']
 selection = st.selectbox('Monster Select Box:', placeholder="Aboleth", options=sorted(mon_list))
 dfmaster = df[(df['Name']==selection)]
-mimage = dfmaster['image'][0]
+mimage = dfmaster['(Image'][0]
 #
 try:
     st.image(f'https://www.dnd5eapi.co{mimage}')
 except:
-    st.write("none found")
+    r = requests.post(
+    "https://api.deepai.org/api/text2img",
+    data={
+        'text': 'dungeons and dragons, monster, fantasy theme, animated,black dragon',
+    },
+    headers={'api-key': '0fe3d007-4d4e-420a-b796-4c01badcdbc9'})
+    response = requests.get(r.json()['output_url'])
+    st.image(response)
 
 #
 #Description Block, completely worthless right now
