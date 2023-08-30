@@ -25,9 +25,10 @@ df.columns=df.columns.str.title().str.strip().str.replace('_',' ')
 mon_list = df['Name']
 selection = st.selectbox('Monster Select Box:', placeholder="Aboleth", options=sorted(mon_list))
 dfmaster = df[(df['Name']==selection)]
-mimage = dfmaster['(Image'][0]
+
 #
 try:
+    mimage = dfmaster['(Image'][0]
     st.image(f'https://www.dnd5eapi.co{mimage}')
 except:
     r = requests.post(
