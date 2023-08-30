@@ -10,8 +10,8 @@ folder_dir = os.path.join(Path(__file__).parents[0], 'data')
 
 load_dotenv()
 class PGSQL:
-    __user = getenv("USER")
-    __password = getenv("PASSWORD")
+    __user = 'qxqdekzb'
+    __password = 'PhAQn8YHzjFbSBOz9oRdohA5XXF1pYLB'
     __server = getenv("SERVER")
     __pg_con = psycopg2.connect(
         dbname=__user,
