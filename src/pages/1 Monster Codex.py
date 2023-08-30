@@ -112,5 +112,3 @@ for index, row in df_res.iloc[:,1:].iterrows():
     for column_name, cell_value in row.items():
         if cell_value != None and column_name!= "Type":
             col3.write(column_name + " : " + str(cell_value))
-
-st.write(folder_dir)

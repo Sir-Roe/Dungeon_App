@@ -37,6 +37,3 @@ st.text("""
         A special thanks to the https://www.dnd5eapi.co/
         """)
 
-folder_dir = os.path.join(Path(__file__).parents[1], 'data')
-bh='beholder.png'
-st.image(f'{folder_dir}\{bh}',width=800)
