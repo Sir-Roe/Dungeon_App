@@ -8,8 +8,6 @@ st.set_page_config(
         Github account: \n\rLogan : https://github.com/Sir-Roe"""}
 )
 
-st.image('https://logos-world.net/wp-content/uploads/2021/12/DnD-Logo.png',width=400)
-
 st.header("DnD 5e Companion App Summary")
 st.text("""
         The purpose of this application is to create an application using the
@@ -29,3 +27,9 @@ st.text("""
         The second option is to select an x and y value to scatter plot!
         """)
 
+st.image('https://logos-world.net/wp-content/uploads/2021/12/DnD-Logo.png',width=400)
+
+
+st.text("""
+        A special thanks to the https://www.dnd5eapi.co/
+        """)
