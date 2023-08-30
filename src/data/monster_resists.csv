@@ -1,0 +1,714 @@
+monster_id,type,value
+adult-black-dragon,damage_immunities,acid
+adult-blue-dragon,damage_immunities,lightning
+adult-brass-dragon,damage_immunities,fire
+adult-bronze-dragon,damage_immunities,lightning
+adult-copper-dragon,damage_immunities,acid
+adult-gold-dragon,damage_immunities,fire
+adult-green-dragon,damage_immunities,poison
+adult-green-dragon,condition_immunities,Poisoned
+adult-red-dragon,damage_immunities,fire
+adult-silver-dragon,damage_immunities,cold
+adult-white-dragon,damage_immunities,cold
+air-elemental,damage_resistances,lightning
+air-elemental,damage_resistances,thunder
+air-elemental,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+air-elemental,damage_immunities,poison
+air-elemental,condition_immunities,Exhaustion
+air-elemental,condition_immunities,Grappled
+air-elemental,condition_immunities,Paralyzed
+air-elemental,condition_immunities,Petrified
+air-elemental,condition_immunities,Poisoned
+air-elemental,condition_immunities,Prone
+air-elemental,condition_immunities,Restrained
+air-elemental,condition_immunities,Unconscious
+ancient-black-dragon,damage_immunities,acid
+ancient-blue-dragon,damage_immunities,lightning
+ancient-brass-dragon,damage_immunities,fire
+ancient-bronze-dragon,damage_immunities,lightning
+ancient-copper-dragon,damage_immunities,acid
+ancient-gold-dragon,damage_immunities,fire
+ancient-green-dragon,damage_immunities,poison
+ancient-green-dragon,condition_immunities,Poisoned
+ancient-red-dragon,damage_immunities,fire
+ancient-silver-dragon,damage_immunities,cold
+ancient-white-dragon,damage_immunities,cold
+androsphinx,damage_immunities,psychic
+androsphinx,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons"
+androsphinx,condition_immunities,Charmed
+androsphinx,condition_immunities,Frightened
+animated-armor,damage_immunities,poison
+animated-armor,damage_immunities,psychic
+animated-armor,condition_immunities,Blinded
+animated-armor,condition_immunities,Charmed
+animated-armor,condition_immunities,Deafened
+animated-armor,condition_immunities,Exhaustion
+animated-armor,condition_immunities,Frightened
+animated-armor,condition_immunities,Paralyzed
+animated-armor,condition_immunities,Petrified
+animated-armor,condition_immunities,Poisoned
+archmage,damage_resistances,damage from spells
+archmage,damage_resistances,"nonmagical bludgeoning, piercing, and slashing (from stoneskin)"
+assassin,damage_resistances,poison
+awakened-shrub,damage_vulnerabilities,fire
+awakened-shrub,damage_resistances,piercing
+awakened-tree,damage_vulnerabilities,fire
+awakened-tree,damage_resistances,bludgeoning
+awakened-tree,damage_resistances,piercing
+azer,damage_immunities,fire
+azer,damage_immunities,poison
+azer,condition_immunities,Poisoned
+balor,damage_resistances,cold
+balor,damage_resistances,lightning
+balor,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+balor,damage_immunities,fire
+balor,damage_immunities,poison
+balor,condition_immunities,Poisoned
+barbed-devil,damage_resistances,cold
+barbed-devil,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+barbed-devil,damage_immunities,fire
+barbed-devil,damage_immunities,poison
+barbed-devil,condition_immunities,Poisoned
+bearded-devil,damage_resistances,cold
+bearded-devil,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+bearded-devil,damage_immunities,fire
+bearded-devil,damage_immunities,poison
+bearded-devil,condition_immunities,Poisoned
+behir,damage_immunities,lightning
+black-dragon-wyrmling,damage_immunities,acid
+black-pudding,damage_immunities,acid
+black-pudding,damage_immunities,cold
+black-pudding,damage_immunities,lightning
+black-pudding,damage_immunities,slashing
+black-pudding,condition_immunities,Blinded
+black-pudding,condition_immunities,Charmed
+black-pudding,condition_immunities,Blinded
+black-pudding,condition_immunities,Exhaustion
+black-pudding,condition_immunities,Frightened
+black-pudding,condition_immunities,Prone
+blue-dragon-wyrmling,damage_immunities,lightning
+bone-devil,damage_resistances,cold
+bone-devil,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+bone-devil,damage_immunities,fire
+bone-devil,damage_immunities,poison
+bone-devil,condition_immunities,Poisoned
+brass-dragon-wyrmling,damage_immunities,fire
+bronze-dragon-wyrmling,damage_immunities,lightning
+chain-devil,damage_resistances,cold
+chain-devil,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+chain-devil,damage_immunities,fire
+chain-devil,damage_immunities,poison
+chain-devil,condition_immunities,Poisoned
+chuul,damage_immunities,poison
+chuul,condition_immunities,Poisoned
+clay-golem,damage_immunities,acid
+clay-golem,damage_immunities,poison
+clay-golem,damage_immunities,psychic
+clay-golem,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+clay-golem,condition_immunities,Charmed
+clay-golem,condition_immunities,Exhaustion
+clay-golem,condition_immunities,Frightened
+clay-golem,condition_immunities,Paralyzed
+clay-golem,condition_immunities,Petrified
+clay-golem,condition_immunities,Poisoned
+copper-dragon-wyrmling,damage_immunities,acid
+couatl,damage_resistances,radiant
+couatl,damage_immunities,psychic
+couatl,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons"
+deva,damage_resistances,radiant
+deva,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+deva,condition_immunities,Charmed
+deva,condition_immunities,Exhaustion
+deva,condition_immunities,Frightened
+djinni,damage_immunities,lightning
+djinni,damage_immunities,thunder
+doppelganger,condition_immunities,Charmed
+dragon-turtle,damage_resistances,fire
+dretch,damage_resistances,cold
+dretch,damage_resistances,fire
+dretch,damage_resistances,lightning
+dretch,damage_immunities,poison
+dretch,condition_immunities,Poisoned
+duergar,damage_resistances,poison
+dust-mephit,damage_vulnerabilities,fire
+dust-mephit,damage_immunities,poison
+dust-mephit,condition_immunities,Poisoned
+earth-elemental,damage_vulnerabilities,thunder
+earth-elemental,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+earth-elemental,damage_immunities,poison
+earth-elemental,condition_immunities,Exhaustion
+earth-elemental,condition_immunities,Paralyzed
+earth-elemental,condition_immunities,Petrified
+earth-elemental,condition_immunities,Poisoned
+earth-elemental,condition_immunities,Unconscious
+efreeti,damage_immunities,fire
+erinyes,damage_resistances,cold
+erinyes,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+erinyes,damage_immunities,fire
+erinyes,damage_immunities,poison
+erinyes,condition_immunities,Poisoned
+fire-elemental,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+fire-elemental,damage_immunities,fire
+fire-elemental,damage_immunities,poison
+fire-elemental,condition_immunities,Exhaustion
+fire-elemental,condition_immunities,Grappled
+fire-elemental,condition_immunities,Paralyzed
+fire-elemental,condition_immunities,Petrified
+fire-elemental,condition_immunities,Poisoned
+fire-elemental,condition_immunities,Prone
+fire-elemental,condition_immunities,Restrained
+fire-elemental,condition_immunities,Unconscious
+fire-giant,damage_immunities,fire
+flesh-golem,damage_immunities,lightning
+flesh-golem,damage_immunities,poison
+flesh-golem,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+flesh-golem,condition_immunities,Charmed
+flesh-golem,condition_immunities,Exhaustion
+flesh-golem,condition_immunities,Frightened
+flesh-golem,condition_immunities,Paralyzed
+flesh-golem,condition_immunities,Petrified
+flesh-golem,condition_immunities,Poisoned
+flying-sword,damage_immunities,poison
+flying-sword,damage_immunities,psychic
+flying-sword,condition_immunities,Blinded
+flying-sword,condition_immunities,Charmed
+flying-sword,condition_immunities,Blinded
+flying-sword,condition_immunities,Frightened
+flying-sword,condition_immunities,Paralyzed
+flying-sword,condition_immunities,Petrified
+flying-sword,condition_immunities,Poisoned
+frost-giant,damage_immunities,cold
+gargoyle,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+gargoyle,damage_immunities,poison
+gargoyle,condition_immunities,Exhaustion
+gargoyle,condition_immunities,Petrified
+gargoyle,condition_immunities,Poisoned
+gelatinous-cube,condition_immunities,Blinded
+gelatinous-cube,condition_immunities,Charmed
+gelatinous-cube,condition_immunities,Deafened
+gelatinous-cube,condition_immunities,Exhaustion
+gelatinous-cube,condition_immunities,Frightened
+gelatinous-cube,condition_immunities,Prone
+ghast,damage_resistances,necrotic
+ghast,damage_immunities,poison
+ghast,condition_immunities,Poisoned
+ghast,condition_immunities,Charmed
+ghast,condition_immunities,Exhaustion
+ghost,damage_resistances,acid
+ghost,damage_resistances,fire
+ghost,damage_resistances,lightning
+ghost,damage_resistances,thunder
+ghost,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+ghost,damage_immunities,cold
+ghost,damage_immunities,necrotic
+ghost,damage_immunities,poison
+ghost,condition_immunities,Charmed
+ghost,condition_immunities,Exhaustion
+ghost,condition_immunities,Frightened
+ghost,condition_immunities,Grappled
+ghost,condition_immunities,Paralyzed
+ghost,condition_immunities,Petrified
+ghost,condition_immunities,Poisoned
+ghost,condition_immunities,Prone
+ghost,condition_immunities,Restrained
+ghoul,damage_immunities,poison
+ghoul,condition_immunities,Poisoned
+ghoul,condition_immunities,Charmed
+ghoul,condition_immunities,Exhaustion
+gibbering-mouther,condition_immunities,Prone
+glabrezu,damage_resistances,cold
+glabrezu,damage_resistances,fire
+glabrezu,damage_resistances,lightning
+glabrezu,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+glabrezu,damage_immunities,poison
+glabrezu,condition_immunities,Poisoned
+gold-dragon-wyrmling,damage_immunities,fire
+gorgon,condition_immunities,Petrified
+gray-ooze,damage_resistances,acid
+gray-ooze,damage_resistances,cold
+gray-ooze,damage_resistances,fire
+gray-ooze,condition_immunities,Blinded
+gray-ooze,condition_immunities,Charmed
+gray-ooze,condition_immunities,Deafened
+gray-ooze,condition_immunities,Exhaustion
+gray-ooze,condition_immunities,Frightened
+gray-ooze,condition_immunities,Prone
+green-dragon-wyrmling,damage_immunities,poison
+green-dragon-wyrmling,condition_immunities,Poisoned
+grick,damage_resistances,"bludgeoning, piercing, and slashing damage from nonmagical weapons"
+grimlock,condition_immunities,Blinded
+guardian-naga,damage_immunities,poison
+guardian-naga,condition_immunities,Charmed
+guardian-naga,condition_immunities,Poisoned
+gynosphinx,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+gynosphinx,damage_immunities,psychic
+gynosphinx,condition_immunities,Charmed
+gynosphinx,condition_immunities,Frightened
+half-red-dragon-veteran,damage_resistances,fire
+hell-hound,damage_immunities,fire
+hezrou,damage_resistances,cold
+hezrou,damage_resistances,fire
+hezrou,damage_resistances,lightning
+hezrou,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+hezrou,damage_immunities,poison
+hezrou,condition_immunities,Poisoned
+homunculus,damage_immunities,poison
+homunculus,condition_immunities,Charmed
+homunculus,condition_immunities,Poisoned
+horned-devil,damage_resistances,cold
+horned-devil,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+horned-devil,damage_immunities,fire
+horned-devil,damage_immunities,poison
+horned-devil,condition_immunities,Poisoned
+ice-devil,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+ice-devil,damage_immunities,fire
+ice-devil,damage_immunities,poison
+ice-devil,condition_immunities,Poisoned
+ice-mephit,damage_vulnerabilities,bludgeoning
+ice-mephit,damage_vulnerabilities,fire
+ice-mephit,damage_immunities,cold
+ice-mephit,damage_immunities,poison
+ice-mephit,condition_immunities,Poisoned
+imp,damage_resistances,cold
+imp,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical/nonsilver weapons"
+imp,damage_immunities,fire
+imp,damage_immunities,poison
+imp,condition_immunities,Poisoned
+invisible-stalker,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+invisible-stalker,damage_immunities,poison
+invisible-stalker,condition_immunities,Exhaustion
+invisible-stalker,condition_immunities,Grappled
+invisible-stalker,condition_immunities,Paralyzed
+invisible-stalker,condition_immunities,Petrified
+invisible-stalker,condition_immunities,Poisoned
+invisible-stalker,condition_immunities,Prone
+invisible-stalker,condition_immunities,Restrained
+invisible-stalker,condition_immunities,Unconscious
+iron-golem,damage_immunities,fire
+iron-golem,damage_immunities,poison
+iron-golem,damage_immunities,psychic
+iron-golem,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+iron-golem,condition_immunities,Charmed
+iron-golem,condition_immunities,Exhaustion
+iron-golem,condition_immunities,Frightened
+iron-golem,condition_immunities,Paralyzed
+iron-golem,condition_immunities,Petrified
+iron-golem,condition_immunities,Poisoned
+kraken,damage_immunities,lightning
+kraken,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons"
+kraken,condition_immunities,Frightened
+kraken,condition_immunities,Paralyzed
+lemure,damage_resistances,cold
+lemure,damage_immunities,fire
+lemure,damage_immunities,poison
+lemure,condition_immunities,Charmed
+lemure,condition_immunities,Frightened
+lemure,condition_immunities,Poisoned
+lich,damage_resistances,cold
+lich,damage_resistances,lightning
+lich,damage_resistances,necrotic
+lich,damage_immunities,poison
+lich,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons"
+lich,condition_immunities,Charmed
+lich,condition_immunities,Exhaustion
+lich,condition_immunities,Frightened
+lich,condition_immunities,Paralyzed
+lich,condition_immunities,Poisoned
+magma-mephit,damage_vulnerabilities,cold
+magma-mephit,damage_immunities,fire
+magma-mephit,damage_immunities,poison
+magma-mephit,condition_immunities,Poisoned
+magmin,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+magmin,damage_immunities,fire
+marilith,damage_resistances,cold
+marilith,damage_resistances,fire
+marilith,damage_resistances,lightning
+marilith,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+marilith,damage_immunities,poison
+marilith,condition_immunities,Poisoned
+mimic,damage_immunities,acid
+mimic,condition_immunities,Prone
+minotaur-skeleton,damage_vulnerabilities,bludgeoning
+minotaur-skeleton,damage_immunities,poison
+minotaur-skeleton,condition_immunities,Exhaustion
+minotaur-skeleton,condition_immunities,Poisoned
+mummy,damage_vulnerabilities,fire
+mummy,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+mummy,damage_immunities,necrotic
+mummy,damage_immunities,poison
+mummy,condition_immunities,Charmed
+mummy,condition_immunities,Exhaustion
+mummy,condition_immunities,Frightened
+mummy,condition_immunities,Paralyzed
+mummy,condition_immunities,Poisoned
+mummy-lord,damage_vulnerabilities,fire
+mummy-lord,damage_immunities,necrotic
+mummy-lord,damage_immunities,poison
+mummy-lord,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons"
+mummy-lord,condition_immunities,Charmed
+mummy-lord,condition_immunities,Exhaustion
+mummy-lord,condition_immunities,Frightened
+mummy-lord,condition_immunities,Paralyzed
+mummy-lord,condition_immunities,Poisoned
+nalfeshnee,damage_resistances,cold
+nalfeshnee,damage_resistances,fire
+nalfeshnee,damage_resistances,lightning
+nalfeshnee,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+nalfeshnee,damage_immunities,poison
+nalfeshnee,condition_immunities,Poisoned
+night-hag,damage_resistances,cold
+night-hag,damage_resistances,fire
+night-hag,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+night-hag,condition_immunities,Charmed
+nightmare,damage_immunities,fire
+ochre-jelly,damage_resistances,acid
+ochre-jelly,damage_immunities,lightning
+ochre-jelly,damage_immunities,slashing
+ochre-jelly,condition_immunities,Blinded
+ochre-jelly,condition_immunities,Charmed
+ochre-jelly,condition_immunities,Blinded
+ochre-jelly,condition_immunities,Exhaustion
+ochre-jelly,condition_immunities,Frightened
+ochre-jelly,condition_immunities,Prone
+ogre-zombie,damage_immunities,poison
+ogre-zombie,condition_immunities,Poisoned
+pit-fiend,damage_resistances,cold
+pit-fiend,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+pit-fiend,damage_immunities,fire
+pit-fiend,damage_immunities,poison
+pit-fiend,condition_immunities,Poisoned
+planetar,damage_resistances,radiant
+planetar,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+planetar,condition_immunities,Charmed
+planetar,condition_immunities,Exhaustion
+planetar,condition_immunities,Frightened
+quasit,damage_resistances,cold
+quasit,damage_resistances,fire
+quasit,damage_resistances,lightning
+quasit,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+quasit,damage_immunities,poison
+quasit,condition_immunities,Poisoned
+rakshasa,damage_vulnerabilities,piercing from magic weapons wielded by good creatures
+rakshasa,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons"
+red-dragon-wyrmling,damage_immunities,fire
+remorhaz,damage_immunities,cold
+remorhaz,damage_immunities,fire
+rug-of-smothering,damage_immunities,poison
+rug-of-smothering,damage_immunities,psychic
+rug-of-smothering,condition_immunities,Blinded
+rug-of-smothering,condition_immunities,Charmed
+rug-of-smothering,condition_immunities,Blinded
+rug-of-smothering,condition_immunities,Frightened
+rug-of-smothering,condition_immunities,Paralyzed
+rug-of-smothering,condition_immunities,Petrified
+rug-of-smothering,condition_immunities,Poisoned
+salamander,damage_vulnerabilities,cold
+salamander,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+salamander,damage_immunities,fire
+shadow,damage_vulnerabilities,radiant
+shadow,damage_resistances,acid
+shadow,damage_resistances,cold
+shadow,damage_resistances,fire
+shadow,damage_resistances,lightning
+shadow,damage_resistances,thunder
+shadow,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+shadow,damage_immunities,necrotic
+shadow,damage_immunities,poison
+shadow,condition_immunities,Exhaustion
+shadow,condition_immunities,Frightened
+shadow,condition_immunities,Grappled
+shadow,condition_immunities,Paralyzed
+shadow,condition_immunities,Petrified
+shadow,condition_immunities,Poisoned
+shadow,condition_immunities,Prone
+shadow,condition_immunities,Restrained
+shambling-mound,damage_resistances,cold
+shambling-mound,damage_resistances,fire
+shambling-mound,damage_immunities,lightning
+shambling-mound,condition_immunities,Blinded
+shambling-mound,condition_immunities,Blinded
+shambling-mound,condition_immunities,Exhaustion
+shield-guardian,damage_immunities,poison
+shield-guardian,condition_immunities,Charmed
+shield-guardian,condition_immunities,Exhaustion
+shield-guardian,condition_immunities,Frightened
+shield-guardian,condition_immunities,Paralyzed
+shield-guardian,condition_immunities,Poisoned
+shrieker,condition_immunities,Blinded
+shrieker,condition_immunities,Blinded
+shrieker,condition_immunities,Frightened
+silver-dragon-wyrmling,damage_immunities,cold
+skeleton,damage_vulnerabilities,bludgeoning
+skeleton,damage_immunities,poison
+skeleton,condition_immunities,Poisoned
+skeleton,condition_immunities,Exhaustion
+solar,damage_resistances,radiant
+solar,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+solar,damage_immunities,necrotic
+solar,damage_immunities,poison
+solar,condition_immunities,Charmed
+solar,condition_immunities,Exhaustion
+solar,condition_immunities,Frightened
+solar,condition_immunities,Poisoned
+specter,damage_resistances,acid
+specter,damage_resistances,cold
+specter,damage_resistances,fire
+specter,damage_resistances,lightning
+specter,damage_resistances,thunder
+specter,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+specter,damage_immunities,necrotic
+specter,damage_immunities,poison
+specter,condition_immunities,Charmed
+specter,condition_immunities,Exhaustion
+specter,condition_immunities,Grappled
+specter,condition_immunities,Paralyzed
+specter,condition_immunities,Petrified
+specter,condition_immunities,Poisoned
+specter,condition_immunities,Prone
+specter,condition_immunities,Restrained
+specter,condition_immunities,Unconscious
+spirit-naga,damage_immunities,poison
+spirit-naga,condition_immunities,Charmed
+spirit-naga,condition_immunities,Poisoned
+steam-mephit,damage_immunities,fire
+steam-mephit,damage_immunities,poison
+steam-mephit,condition_immunities,Poisoned
+stone-golem,damage_immunities,poison
+stone-golem,damage_immunities,psychic
+stone-golem,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+stone-golem,condition_immunities,Charmed
+stone-golem,condition_immunities,Exhaustion
+stone-golem,condition_immunities,Frightened
+stone-golem,condition_immunities,Paralyzed
+stone-golem,condition_immunities,Petrified
+stone-golem,condition_immunities,Poisoned
+storm-giant,damage_resistances,cold
+storm-giant,damage_immunities,lightning
+storm-giant,damage_immunities,thunder
+succubus-incubus,damage_resistances,cold
+succubus-incubus,damage_resistances,fire
+succubus-incubus,damage_resistances,lightning
+succubus-incubus,damage_resistances,poison
+succubus-incubus,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+swarm-of-bats,damage_resistances,bludgeoning
+swarm-of-bats,damage_resistances,piercing
+swarm-of-bats,damage_resistances,slashing
+swarm-of-bats,condition_immunities,Charmed
+swarm-of-bats,condition_immunities,Frightened
+swarm-of-bats,condition_immunities,Grappled
+swarm-of-bats,condition_immunities,Paralyzed
+swarm-of-bats,condition_immunities,Petrified
+swarm-of-bats,condition_immunities,Prone
+swarm-of-bats,condition_immunities,Restrained
+swarm-of-bats,condition_immunities,Stunned
+swarm-of-beetles,damage_resistances,bludgeoning
+swarm-of-beetles,damage_resistances,piercing
+swarm-of-beetles,damage_resistances,slashing
+swarm-of-beetles,condition_immunities,Charmed
+swarm-of-beetles,condition_immunities,Frightened
+swarm-of-beetles,condition_immunities,Grappled
+swarm-of-beetles,condition_immunities,Paralyzed
+swarm-of-beetles,condition_immunities,Petrified
+swarm-of-beetles,condition_immunities,Prone
+swarm-of-beetles,condition_immunities,Restrained
+swarm-of-beetles,condition_immunities,Stunned
+swarm-of-centipedes,damage_resistances,bludgeoning
+swarm-of-centipedes,damage_resistances,piercing
+swarm-of-centipedes,damage_resistances,slashing
+swarm-of-centipedes,condition_immunities,Charmed
+swarm-of-centipedes,condition_immunities,Frightened
+swarm-of-centipedes,condition_immunities,Grappled
+swarm-of-centipedes,condition_immunities,Paralyzed
+swarm-of-centipedes,condition_immunities,Petrified
+swarm-of-centipedes,condition_immunities,Prone
+swarm-of-centipedes,condition_immunities,Restrained
+swarm-of-centipedes,condition_immunities,Stunned
+swarm-of-insects,damage_resistances,bludgeoning
+swarm-of-insects,damage_resistances,piercing
+swarm-of-insects,damage_resistances,slashing
+swarm-of-insects,condition_immunities,Charmed
+swarm-of-insects,condition_immunities,Frightened
+swarm-of-insects,condition_immunities,Grappled
+swarm-of-insects,condition_immunities,Paralyzed
+swarm-of-insects,condition_immunities,Petrified
+swarm-of-insects,condition_immunities,Prone
+swarm-of-insects,condition_immunities,Restrained
+swarm-of-insects,condition_immunities,Stunned
+swarm-of-poisonous-snakes,damage_resistances,bludgeoning
+swarm-of-poisonous-snakes,damage_resistances,piercing
+swarm-of-poisonous-snakes,damage_resistances,slashing
+swarm-of-poisonous-snakes,condition_immunities,Charmed
+swarm-of-poisonous-snakes,condition_immunities,Frightened
+swarm-of-poisonous-snakes,condition_immunities,Grappled
+swarm-of-poisonous-snakes,condition_immunities,Paralyzed
+swarm-of-poisonous-snakes,condition_immunities,Petrified
+swarm-of-poisonous-snakes,condition_immunities,Prone
+swarm-of-poisonous-snakes,condition_immunities,Restrained
+swarm-of-poisonous-snakes,condition_immunities,Stunned
+swarm-of-quippers,damage_resistances,bludgeoning
+swarm-of-quippers,damage_resistances,piercing
+swarm-of-quippers,damage_resistances,slashing
+swarm-of-quippers,condition_immunities,Charmed
+swarm-of-quippers,condition_immunities,Frightened
+swarm-of-quippers,condition_immunities,Grappled
+swarm-of-quippers,condition_immunities,Paralyzed
+swarm-of-quippers,condition_immunities,Petrified
+swarm-of-quippers,condition_immunities,Prone
+swarm-of-quippers,condition_immunities,Restrained
+swarm-of-quippers,condition_immunities,Stunned
+swarm-of-rats,damage_resistances,bludgeoning
+swarm-of-rats,damage_resistances,piercing
+swarm-of-rats,damage_resistances,slashing
+swarm-of-rats,condition_immunities,Charmed
+swarm-of-rats,condition_immunities,Frightened
+swarm-of-rats,condition_immunities,Grappled
+swarm-of-rats,condition_immunities,Paralyzed
+swarm-of-rats,condition_immunities,Petrified
+swarm-of-rats,condition_immunities,Prone
+swarm-of-rats,condition_immunities,Restrained
+swarm-of-rats,condition_immunities,Stunned
+swarm-of-ravens,damage_resistances,bludgeoning
+swarm-of-ravens,damage_resistances,piercing
+swarm-of-ravens,damage_resistances,slashing
+swarm-of-ravens,condition_immunities,Charmed
+swarm-of-ravens,condition_immunities,Frightened
+swarm-of-ravens,condition_immunities,Grappled
+swarm-of-ravens,condition_immunities,Paralyzed
+swarm-of-ravens,condition_immunities,Petrified
+swarm-of-ravens,condition_immunities,Prone
+swarm-of-ravens,condition_immunities,Restrained
+swarm-of-ravens,condition_immunities,Stunned
+swarm-of-spiders,damage_resistances,bludgeoning
+swarm-of-spiders,damage_resistances,piercing
+swarm-of-spiders,damage_resistances,slashing
+swarm-of-spiders,condition_immunities,Charmed
+swarm-of-spiders,condition_immunities,Frightened
+swarm-of-spiders,condition_immunities,Paralyzed
+swarm-of-spiders,condition_immunities,Petrified
+swarm-of-spiders,condition_immunities,Prone
+swarm-of-spiders,condition_immunities,Restrained
+swarm-of-spiders,condition_immunities,Stunned
+swarm-of-wasps,damage_resistances,bludgeoning
+swarm-of-wasps,damage_resistances,piercing
+swarm-of-wasps,damage_resistances,slashing
+swarm-of-wasps,condition_immunities,Charmed
+swarm-of-wasps,condition_immunities,Frightened
+swarm-of-wasps,condition_immunities,Grappled
+swarm-of-wasps,condition_immunities,Paralyzed
+swarm-of-wasps,condition_immunities,Petrified
+swarm-of-wasps,condition_immunities,Prone
+swarm-of-wasps,condition_immunities,Restrained
+swarm-of-wasps,condition_immunities,Stunned
+tarrasque,damage_immunities,fire
+tarrasque,damage_immunities,poison
+tarrasque,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical weapons"
+tarrasque,condition_immunities,Charmed
+tarrasque,condition_immunities,Frightened
+tarrasque,condition_immunities,Paralyzed
+tarrasque,condition_immunities,Poisoned
+treant,damage_vulnerabilities,fire
+treant,damage_resistances,bludgeoning
+treant,damage_resistances,piercing
+unicorn,damage_immunities,poison
+unicorn,condition_immunities,Charmed
+unicorn,condition_immunities,Paralyzed
+unicorn,condition_immunities,Poisoned
+vampire-bat,damage_resistances,necrotic
+vampire-bat,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+vampire-mist,damage_resistances,necrotic
+vampire-mist,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+vampire-spawn,damage_resistances,necrotic
+vampire-spawn,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+vampire-vampire,damage_resistances,necrotic
+vampire-vampire,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+violet-fungus,condition_immunities,Blinded
+violet-fungus,condition_immunities,Blinded
+violet-fungus,condition_immunities,Frightened
+vrock,damage_resistances,cold
+vrock,damage_resistances,fire
+vrock,damage_resistances,lightning
+vrock,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+vrock,damage_immunities,poison
+vrock,condition_immunities,Poisoned
+warhorse-skeleton,damage_vulnerabilities,bludgeoning
+warhorse-skeleton,damage_immunities,poison
+warhorse-skeleton,condition_immunities,Exhaustion
+warhorse-skeleton,condition_immunities,Poisoned
+water-elemental,damage_resistances,acid
+water-elemental,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+water-elemental,damage_immunities,poison
+water-elemental,condition_immunities,Exhaustion
+water-elemental,condition_immunities,Grappled
+water-elemental,condition_immunities,Paralyzed
+water-elemental,condition_immunities,Petrified
+water-elemental,condition_immunities,Poisoned
+water-elemental,condition_immunities,Prone
+water-elemental,condition_immunities,Restrained
+water-elemental,condition_immunities,Unconscious
+werebear-bear,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+werebear-human,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+werebear-hybrid,damage_immunities,"bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
+wereboar-boar,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+wereboar-human,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+wereboar-hybrid,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+wererat-human,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+wererat-hybrid,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+wererat-rat,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+weretiger-human,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+weretiger-hybrid,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+weretiger-tiger,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+werewolf-human,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+werewolf-hybrid,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+werewolf-wolf,damage_immunities,"bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+white-dragon-wyrmling,damage_immunities,cold
+wight,damage_resistances,necrotic
+wight,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+wight,damage_immunities,poison
+wight,condition_immunities,Exhaustion
+wight,condition_immunities,Poisoned
+will-o-wisp,damage_resistances,acid
+will-o-wisp,damage_resistances,cold
+will-o-wisp,damage_resistances,fire
+will-o-wisp,damage_resistances,necrotic
+will-o-wisp,damage_resistances,thunder
+will-o-wisp,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons"
+will-o-wisp,damage_immunities,lightning
+will-o-wisp,damage_immunities,poison
+will-o-wisp,condition_immunities,Exhaustion
+will-o-wisp,condition_immunities,Grappled
+will-o-wisp,condition_immunities,Paralyzed
+will-o-wisp,condition_immunities,Poisoned
+will-o-wisp,condition_immunities,Prone
+will-o-wisp,condition_immunities,Restrained
+will-o-wisp,condition_immunities,Unconscious
+winter-wolf,damage_immunities,cold
+wraith,damage_resistances,acid
+wraith,damage_resistances,cold
+wraith,damage_resistances,fire
+wraith,damage_resistances,lightning
+wraith,damage_resistances,thunder
+wraith,damage_resistances,"bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+wraith,damage_immunities,necrotic
+wraith,damage_immunities,poison
+wraith,condition_immunities,Charmed
+wraith,condition_immunities,Exhaustion
+wraith,condition_immunities,Grappled
+wraith,condition_immunities,Paralyzed
+wraith,condition_immunities,Petrified
+wraith,condition_immunities,Poisoned
+wraith,condition_immunities,Prone
+wraith,condition_immunities,Restrained
+xorn,damage_resistances,piercing and slashing from nonmagical weapons that aren't adamantine
+young-black-dragon,damage_immunities,acid
+young-blue-dragon,damage_immunities,lightning
+young-brass-dragon,damage_immunities,fire
+young-bronze-dragon,damage_immunities,lightning
+young-copper-dragon,damage_immunities,acid
+young-gold-dragon,damage_immunities,fire
+young-green-dragon,damage_immunities,poison
+young-green-dragon,condition_immunities,Poisoned
+young-red-dragon,damage_immunities,fire
+young-silver-dragon,damage_immunities,cold
+young-white-dragon,damage_immunities,cold
+zombie,damage_immunities,poison
+zombie,condition_immunities,Poisoned

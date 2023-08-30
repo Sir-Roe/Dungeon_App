@@ -1,0 +1,1827 @@
+monster_id,characteristic,attribute_name,value
+aboleth,proficiency,Saving Throw: CON,6
+aboleth,proficiency,Saving Throw: INT,8
+aboleth,proficiency,Saving Throw: WIS,6
+aboleth,proficiency,Skill: History,12
+aboleth,proficiency,Skill: Perception,10
+acolyte,proficiency,Skill: Medicine,4
+acolyte,proficiency,Skill: Religion,2
+adult-black-dragon,proficiency,Saving Throw: DEX,7
+adult-black-dragon,proficiency,Saving Throw: CON,10
+adult-black-dragon,proficiency,Saving Throw: WIS,6
+adult-black-dragon,proficiency,Saving Throw: CHA,8
+adult-black-dragon,proficiency,Skill: Perception,11
+adult-black-dragon,proficiency,Skill: Stealth,7
+adult-blue-dragon,proficiency,Saving Throw: DEX,5
+adult-blue-dragon,proficiency,Saving Throw: CON,11
+adult-blue-dragon,proficiency,Saving Throw: WIS,7
+adult-blue-dragon,proficiency,Saving Throw: CHA,9
+adult-blue-dragon,proficiency,Skill: Perception,12
+adult-blue-dragon,proficiency,Skill: Stealth,5
+adult-brass-dragon,proficiency,Saving Throw: DEX,5
+adult-brass-dragon,proficiency,Saving Throw: CON,10
+adult-brass-dragon,proficiency,Saving Throw: WIS,6
+adult-brass-dragon,proficiency,Saving Throw: CHA,8
+adult-brass-dragon,proficiency,Skill: History,7
+adult-brass-dragon,proficiency,Skill: Perception,11
+adult-brass-dragon,proficiency,Skill: Persuasion,8
+adult-brass-dragon,proficiency,Skill: Stealth,5
+adult-bronze-dragon,proficiency,Saving Throw: DEX,5
+adult-bronze-dragon,proficiency,Saving Throw: CON,11
+adult-bronze-dragon,proficiency,Saving Throw: WIS,7
+adult-bronze-dragon,proficiency,Saving Throw: CHA,9
+adult-bronze-dragon,proficiency,Skill: Insight,7
+adult-bronze-dragon,proficiency,Skill: Perception,12
+adult-bronze-dragon,proficiency,Skill: Stealth,5
+adult-copper-dragon,proficiency,Saving Throw: DEX,6
+adult-copper-dragon,proficiency,Saving Throw: CON,10
+adult-copper-dragon,proficiency,Saving Throw: WIS,7
+adult-copper-dragon,proficiency,Saving Throw: CHA,8
+adult-copper-dragon,proficiency,Skill: Deception,8
+adult-copper-dragon,proficiency,Skill: Perception,12
+adult-copper-dragon,proficiency,Skill: Stealth,6
+adult-gold-dragon,proficiency,Saving Throw: DEX,8
+adult-gold-dragon,proficiency,Saving Throw: CON,13
+adult-gold-dragon,proficiency,Saving Throw: WIS,8
+adult-gold-dragon,proficiency,Saving Throw: CHA,13
+adult-gold-dragon,proficiency,Skill: Insight,8
+adult-gold-dragon,proficiency,Skill: Perception,14
+adult-gold-dragon,proficiency,Skill: Persuasion,13
+adult-gold-dragon,proficiency,Skill: Stealth,8
+adult-green-dragon,proficiency,Saving Throw: DEX,6
+adult-green-dragon,proficiency,Saving Throw: CON,10
+adult-green-dragon,proficiency,Saving Throw: WIS,7
+adult-green-dragon,proficiency,Saving Throw: CHA,8
+adult-green-dragon,proficiency,Skill: Deception,8
+adult-green-dragon,proficiency,Skill: Insight,7
+adult-green-dragon,proficiency,Skill: Perception,12
+adult-green-dragon,proficiency,Skill: Persuasion,8
+adult-green-dragon,proficiency,Skill: Stealth,6
+adult-red-dragon,proficiency,Saving Throw: DEX,6
+adult-red-dragon,proficiency,Saving Throw: CON,13
+adult-red-dragon,proficiency,Saving Throw: WIS,7
+adult-red-dragon,proficiency,Saving Throw: CHA,11
+adult-red-dragon,proficiency,Skill: Perception,13
+adult-red-dragon,proficiency,Skill: Stealth,6
+adult-silver-dragon,proficiency,Saving Throw: DEX,5
+adult-silver-dragon,proficiency,Saving Throw: CON,12
+adult-silver-dragon,proficiency,Saving Throw: WIS,6
+adult-silver-dragon,proficiency,Saving Throw: CHA,10
+adult-silver-dragon,proficiency,Skill: Arcana,8
+adult-silver-dragon,proficiency,Skill: History,8
+adult-silver-dragon,proficiency,Skill: Perception,11
+adult-silver-dragon,proficiency,Skill: Stealth,5
+adult-white-dragon,proficiency,Saving Throw: DEX,5
+adult-white-dragon,proficiency,Saving Throw: CON,11
+adult-white-dragon,proficiency,Saving Throw: WIS,6
+adult-white-dragon,proficiency,Saving Throw: CHA,6
+adult-white-dragon,proficiency,Skill: Perception,11
+adult-white-dragon,proficiency,Skill: Stealth,5
+ancient-black-dragon,proficiency,Saving Throw: DEX,9
+ancient-black-dragon,proficiency,Saving Throw: CON,14
+ancient-black-dragon,proficiency,Saving Throw: WIS,9
+ancient-black-dragon,proficiency,Saving Throw: CHA,11
+ancient-black-dragon,proficiency,Skill: Perception,16
+ancient-black-dragon,proficiency,Skill: Stealth,9
+ancient-blue-dragon,proficiency,Saving Throw: DEX,7
+ancient-blue-dragon,proficiency,Saving Throw: CON,15
+ancient-blue-dragon,proficiency,Saving Throw: WIS,10
+ancient-blue-dragon,proficiency,Saving Throw: CHA,12
+ancient-blue-dragon,proficiency,Skill: Perception,17
+ancient-blue-dragon,proficiency,Skill: Stealth,7
+ancient-brass-dragon,proficiency,Saving Throw: DEX,6
+ancient-brass-dragon,proficiency,Saving Throw: CON,13
+ancient-brass-dragon,proficiency,Saving Throw: WIS,8
+ancient-brass-dragon,proficiency,Saving Throw: CHA,10
+ancient-brass-dragon,proficiency,Skill: History,9
+ancient-brass-dragon,proficiency,Skill: Perception,14
+ancient-brass-dragon,proficiency,Skill: Persuasion,10
+ancient-brass-dragon,proficiency,Skill: Stealth,6
+ancient-bronze-dragon,proficiency,Saving Throw: DEX,7
+ancient-bronze-dragon,proficiency,Saving Throw: CON,15
+ancient-bronze-dragon,proficiency,Saving Throw: WIS,10
+ancient-bronze-dragon,proficiency,Saving Throw: CHA,12
+ancient-bronze-dragon,proficiency,Skill: Insight,10
+ancient-bronze-dragon,proficiency,Skill: Perception,17
+ancient-bronze-dragon,proficiency,Skill: Stealth,7
+ancient-copper-dragon,proficiency,Saving Throw: DEX,8
+ancient-copper-dragon,proficiency,Saving Throw: CON,14
+ancient-copper-dragon,proficiency,Saving Throw: WIS,10
+ancient-copper-dragon,proficiency,Saving Throw: CHA,11
+ancient-copper-dragon,proficiency,Skill: Deception,11
+ancient-copper-dragon,proficiency,Skill: Perception,17
+ancient-copper-dragon,proficiency,Skill: Stealth,8
+ancient-gold-dragon,proficiency,Saving Throw: DEX,9
+ancient-gold-dragon,proficiency,Saving Throw: CON,16
+ancient-gold-dragon,proficiency,Saving Throw: WIS,10
+ancient-gold-dragon,proficiency,Saving Throw: CHA,16
+ancient-gold-dragon,proficiency,Skill: Insight,10
+ancient-gold-dragon,proficiency,Skill: Perception,17
+ancient-gold-dragon,proficiency,Skill: Persuasion,16
+ancient-gold-dragon,proficiency,Skill: Stealth,9
+ancient-green-dragon,proficiency,Saving Throw: DEX,8
+ancient-green-dragon,proficiency,Saving Throw: CON,14
+ancient-green-dragon,proficiency,Saving Throw: WIS,10
+ancient-green-dragon,proficiency,Saving Throw: CHA,11
+ancient-green-dragon,proficiency,Skill: Deception,11
+ancient-green-dragon,proficiency,Skill: Insight,10
+ancient-green-dragon,proficiency,Skill: Perception,17
+ancient-green-dragon,proficiency,Skill: Persuasion,11
+ancient-green-dragon,proficiency,Skill: Stealth,8
+ancient-red-dragon,proficiency,Saving Throw: DEX,7
+ancient-red-dragon,proficiency,Saving Throw: CON,16
+ancient-red-dragon,proficiency,Saving Throw: WIS,9
+ancient-red-dragon,proficiency,Saving Throw: CHA,13
+ancient-red-dragon,proficiency,Skill: Perception,16
+ancient-red-dragon,proficiency,Skill: Stealth,7
+ancient-silver-dragon,proficiency,Saving Throw: DEX,7
+ancient-silver-dragon,proficiency,Saving Throw: CON,16
+ancient-silver-dragon,proficiency,Saving Throw: WIS,9
+ancient-silver-dragon,proficiency,Saving Throw: CHA,13
+ancient-silver-dragon,proficiency,Skill: Arcana,11
+ancient-silver-dragon,proficiency,Skill: History,11
+ancient-silver-dragon,proficiency,Skill: Perception,16
+ancient-silver-dragon,proficiency,Skill: Stealth,7
+ancient-white-dragon,proficiency,Saving Throw: DEX,6
+ancient-white-dragon,proficiency,Saving Throw: CON,14
+ancient-white-dragon,proficiency,Saving Throw: WIS,7
+ancient-white-dragon,proficiency,Saving Throw: CHA,8
+ancient-white-dragon,proficiency,Skill: Perception,13
+ancient-white-dragon,proficiency,Skill: Stealth,6
+androsphinx,proficiency,Saving Throw: DEX,6
+androsphinx,proficiency,Saving Throw: CON,11
+androsphinx,proficiency,Saving Throw: INT,9
+androsphinx,proficiency,Saving Throw: WIS,10
+androsphinx,proficiency,Skill: Arcana,9
+androsphinx,proficiency,Skill: Perception,10
+androsphinx,proficiency,Skill: Religion,15
+ape,proficiency,Skill: Athletics,5
+ape,proficiency,Skill: Perception,3
+archmage,proficiency,Saving Throw: INT,9
+archmage,proficiency,Saving Throw: WIS,6
+archmage,proficiency,Skill: Arcana,13
+archmage,proficiency,Skill: History,13
+assassin,proficiency,Saving Throw: DEX,6
+assassin,proficiency,Saving Throw: INT,4
+assassin,proficiency,Skill: Acrobatics,6
+assassin,proficiency,Skill: Deception,3
+assassin,proficiency,Skill: Perception,3
+assassin,proficiency,Skill: Stealth,9
+azer,proficiency,Saving Throw: CON,4
+balor,proficiency,Saving Throw: STR,14
+balor,proficiency,Saving Throw: CON,12
+balor,proficiency,Saving Throw: WIS,9
+balor,proficiency,Saving Throw: CHA,12
+bandit-captain,proficiency,Saving Throw: STR,4
+bandit-captain,proficiency,Saving Throw: DEX,5
+bandit-captain,proficiency,Saving Throw: WIS,2
+bandit-captain,proficiency,Skill: Athletics,4
+bandit-captain,proficiency,Skill: Deception,4
+barbed-devil,proficiency,Saving Throw: STR,6
+barbed-devil,proficiency,Saving Throw: CON,7
+barbed-devil,proficiency,Saving Throw: WIS,5
+barbed-devil,proficiency,Saving Throw: CHA,5
+barbed-devil,proficiency,Skill: Deception,5
+barbed-devil,proficiency,Skill: Insight,5
+barbed-devil,proficiency,Skill: Perception,8
+bearded-devil,proficiency,Saving Throw: STR,5
+bearded-devil,proficiency,Saving Throw: CON,4
+bearded-devil,proficiency,Saving Throw: WIS,2
+behir,proficiency,Skill: Perception,6
+behir,proficiency,Skill: Stealth,7
+black-dragon-wyrmling,proficiency,Saving Throw: DEX,4
+black-dragon-wyrmling,proficiency,Saving Throw: CON,3
+black-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+black-dragon-wyrmling,proficiency,Saving Throw: CHA,3
+black-dragon-wyrmling,proficiency,Skill: Perception,4
+black-dragon-wyrmling,proficiency,Skill: Stealth,4
+blink-dog,proficiency,Skill: Perception,3
+blink-dog,proficiency,Skill: Stealth,5
+blood-hawk,proficiency,Skill: Perception,4
+blue-dragon-wyrmling,proficiency,Saving Throw: DEX,2
+blue-dragon-wyrmling,proficiency,Saving Throw: CON,4
+blue-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+blue-dragon-wyrmling,proficiency,Saving Throw: CHA,4
+blue-dragon-wyrmling,proficiency,Skill: Perception,4
+blue-dragon-wyrmling,proficiency,Skill: Stealth,2
+bone-devil,proficiency,Saving Throw: INT,5
+bone-devil,proficiency,Saving Throw: WIS,6
+bone-devil,proficiency,Saving Throw: CHA,7
+bone-devil,proficiency,Skill: Deception,7
+bone-devil,proficiency,Skill: Insight,6
+brass-dragon-wyrmling,proficiency,Saving Throw: DEX,2
+brass-dragon-wyrmling,proficiency,Saving Throw: CON,3
+brass-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+brass-dragon-wyrmling,proficiency,Saving Throw: CHA,3
+brass-dragon-wyrmling,proficiency,Skill: Perception,4
+brass-dragon-wyrmling,proficiency,Skill: Stealth,2
+bronze-dragon-wyrmling,proficiency,Saving Throw: DEX,2
+bronze-dragon-wyrmling,proficiency,Saving Throw: CON,4
+bronze-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+bronze-dragon-wyrmling,proficiency,Saving Throw: CHA,4
+bronze-dragon-wyrmling,proficiency,Skill: Perception,4
+bronze-dragon-wyrmling,proficiency,Skill: Stealth,2
+brown-bear,proficiency,Skill: Perception,3
+bugbear,proficiency,Skill: Stealth,6
+bugbear,proficiency,Skill: Survival,2
+bulette,proficiency,Skill: Perception,6
+cat,proficiency,Skill: Perception,3
+cat,proficiency,Skill: Stealth,4
+centaur,proficiency,Skill: Athletics,6
+centaur,proficiency,Skill: Perception,3
+centaur,proficiency,Skill: Survival,3
+chain-devil,proficiency,Saving Throw: CON,7
+chain-devil,proficiency,Saving Throw: WIS,4
+chain-devil,proficiency,Saving Throw: CHA,5
+chimera,proficiency,Skill: Perception,8
+chuul,proficiency,Skill: Perception,4
+cloaker,proficiency,Skill: Stealth,5
+cloud-giant,proficiency,Saving Throw: CON,10
+cloud-giant,proficiency,Saving Throw: WIS,7
+cloud-giant,proficiency,Saving Throw: CHA,7
+cloud-giant,proficiency,Skill: Insight,7
+cloud-giant,proficiency,Skill: Perception,7
+copper-dragon-wyrmling,proficiency,Saving Throw: DEX,3
+copper-dragon-wyrmling,proficiency,Saving Throw: CON,3
+copper-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+copper-dragon-wyrmling,proficiency,Saving Throw: CHA,3
+copper-dragon-wyrmling,proficiency,Skill: Perception,4
+copper-dragon-wyrmling,proficiency,Skill: Stealth,3
+couatl,proficiency,Saving Throw: CON,5
+couatl,proficiency,Saving Throw: WIS,7
+couatl,proficiency,Saving Throw: CHA,6
+crab,proficiency,Skill: Stealth,2
+crocodile,proficiency,Skill: Stealth,2
+cult-fanatic,proficiency,Skill: Deception,4
+cult-fanatic,proficiency,Skill: Persuasion,4
+cult-fanatic,proficiency,Skill: Religion,2
+cultist,proficiency,Skill: Deception,2
+cultist,proficiency,Skill: Religion,2
+darkmantle,proficiency,Skill: Stealth,3
+death-dog,proficiency,Skill: Perception,5
+death-dog,proficiency,Skill: Stealth,4
+deep-gnome-svirfneblin,proficiency,Skill: Investigation,3
+deep-gnome-svirfneblin,proficiency,Skill: Perception,2
+deep-gnome-svirfneblin,proficiency,Skill: Stealth,4
+deva,proficiency,Saving Throw: WIS,9
+deva,proficiency,Saving Throw: CHA,9
+deva,proficiency,Skill: Insight,9
+deva,proficiency,Skill: Perception,9
+dire-wolf,proficiency,Skill: Perception,3
+dire-wolf,proficiency,Skill: Stealth,4
+djinni,proficiency,Saving Throw: DEX,6
+djinni,proficiency,Saving Throw: WIS,7
+djinni,proficiency,Saving Throw: CHA,9
+doppelganger,proficiency,Skill: Deception,6
+doppelganger,proficiency,Skill: Insight,3
+dragon-turtle,proficiency,Saving Throw: DEX,6
+dragon-turtle,proficiency,Saving Throw: CON,11
+dragon-turtle,proficiency,Saving Throw: WIS,7
+drider,proficiency,Skill: Perception,5
+drider,proficiency,Skill: Stealth,9
+drow,proficiency,Skill: Perception,2
+drow,proficiency,Skill: Stealth,4
+druid,proficiency,Skill: Medicine,4
+druid,proficiency,Skill: Nature,3
+druid,proficiency,Skill: Perception,4
+dryad,proficiency,Skill: Perception,4
+dryad,proficiency,Skill: Stealth,5
+dust-mephit,proficiency,Skill: Perception,2
+dust-mephit,proficiency,Skill: Stealth,4
+eagle,proficiency,Skill: Perception,4
+efreeti,proficiency,Saving Throw: INT,7
+efreeti,proficiency,Saving Throw: WIS,6
+efreeti,proficiency,Saving Throw: CHA,7
+erinyes,proficiency,Saving Throw: DEX,7
+erinyes,proficiency,Saving Throw: CON,8
+erinyes,proficiency,Saving Throw: WIS,6
+erinyes,proficiency,Saving Throw: CHA,8
+ettercap,proficiency,Skill: Perception,3
+ettercap,proficiency,Skill: Stealth,4
+ettercap,proficiency,Skill: Survival,3
+ettin,proficiency,Skill: Perception,4
+fire-giant,proficiency,Saving Throw: DEX,3
+fire-giant,proficiency,Saving Throw: CON,10
+fire-giant,proficiency,Saving Throw: CHA,5
+fire-giant,proficiency,Skill: Athletics,11
+fire-giant,proficiency,Skill: Perception,6
+flying-sword,proficiency,Saving Throw: DEX,4
+frog,proficiency,Skill: Perception,1
+frog,proficiency,Skill: Stealth,3
+frost-giant,proficiency,Saving Throw: CON,8
+frost-giant,proficiency,Saving Throw: WIS,3
+frost-giant,proficiency,Saving Throw: CHA,4
+frost-giant,proficiency,Skill: Athletics,9
+frost-giant,proficiency,Skill: Perception,3
+giant-ape,proficiency,Skill: Athletics,9
+giant-ape,proficiency,Skill: Perception,4
+giant-constrictor-snake,proficiency,Skill: Perception,2
+giant-crab,proficiency,Skill: Stealth,4
+giant-crocodile,proficiency,Skill: Stealth,5
+giant-eagle,proficiency,Skill: Perception,4
+giant-elk,proficiency,Skill: Perception,4
+giant-frog,proficiency,Skill: Perception,2
+giant-frog,proficiency,Skill: Stealth,3
+giant-hyena,proficiency,Skill: Perception,3
+giant-octopus,proficiency,Skill: Perception,4
+giant-octopus,proficiency,Skill: Stealth,5
+giant-owl,proficiency,Skill: Perception,5
+giant-owl,proficiency,Skill: Stealth,4
+giant-poisonous-snake,proficiency,Skill: Perception,2
+giant-shark,proficiency,Skill: Perception,3
+giant-spider,proficiency,Skill: Stealth,7
+giant-vulture,proficiency,Skill: Perception,3
+giant-weasel,proficiency,Skill: Perception,3
+giant-weasel,proficiency,Skill: Stealth,5
+giant-wolf-spider,proficiency,Skill: Perception,3
+giant-wolf-spider,proficiency,Skill: Stealth,7
+glabrezu,proficiency,Saving Throw: STR,9
+glabrezu,proficiency,Saving Throw: CON,9
+glabrezu,proficiency,Saving Throw: WIS,7
+glabrezu,proficiency,Saving Throw: CHA,7
+gladiator,proficiency,Saving Throw: STR,7
+gladiator,proficiency,Saving Throw: DEX,5
+gladiator,proficiency,Saving Throw: CON,6
+gladiator,proficiency,Skill: Athletics,10
+gladiator,proficiency,Skill: Intimidation,5
+goblin,proficiency,Skill: Stealth,6
+gold-dragon-wyrmling,proficiency,Saving Throw: DEX,4
+gold-dragon-wyrmling,proficiency,Saving Throw: CON,5
+gold-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+gold-dragon-wyrmling,proficiency,Saving Throw: CHA,5
+gold-dragon-wyrmling,proficiency,Skill: Perception,4
+gold-dragon-wyrmling,proficiency,Skill: Stealth,4
+gorgon,proficiency,Skill: Perception,4
+gray-ooze,proficiency,Skill: Stealth,2
+green-dragon-wyrmling,proficiency,Saving Throw: DEX,3
+green-dragon-wyrmling,proficiency,Saving Throw: CON,3
+green-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+green-dragon-wyrmling,proficiency,Saving Throw: CHA,3
+green-dragon-wyrmling,proficiency,Skill: Perception,4
+green-dragon-wyrmling,proficiency,Skill: Stealth,3
+green-hag,proficiency,Skill: Arcana,3
+green-hag,proficiency,Skill: Deception,4
+green-hag,proficiency,Skill: Perception,4
+green-hag,proficiency,Skill: Stealth,3
+griffon,proficiency,Skill: Perception,5
+grimlock,proficiency,Skill: Athletics,5
+grimlock,proficiency,Skill: Perception,3
+grimlock,proficiency,Skill: Stealth,3
+guard,proficiency,Skill: Perception,2
+guardian-naga,proficiency,Saving Throw: DEX,8
+guardian-naga,proficiency,Saving Throw: CON,7
+guardian-naga,proficiency,Saving Throw: INT,7
+guardian-naga,proficiency,Saving Throw: WIS,8
+guardian-naga,proficiency,Saving Throw: CHA,8
+gynosphinx,proficiency,Skill: Arcana,12
+gynosphinx,proficiency,Skill: History,12
+gynosphinx,proficiency,Skill: Perception,8
+gynosphinx,proficiency,Skill: Religion,8
+hawk,proficiency,Skill: Perception,4
+hell-hound,proficiency,Skill: Perception,5
+hezrou,proficiency,Saving Throw: STR,7
+hezrou,proficiency,Saving Throw: CON,8
+hezrou,proficiency,Saving Throw: WIS,4
+hill-giant,proficiency,Skill: Perception,2
+hippogriff,proficiency,Skill: Perception,5
+horned-devil,proficiency,Saving Throw: STR,10
+horned-devil,proficiency,Saving Throw: DEX,7
+horned-devil,proficiency,Saving Throw: WIS,7
+horned-devil,proficiency,Saving Throw: CHA,7
+hunter-shark,proficiency,Skill: Perception,2
+hydra,proficiency,Skill: Perception,6
+hyena,proficiency,Skill: Perception,3
+ice-devil,proficiency,Saving Throw: DEX,7
+ice-devil,proficiency,Saving Throw: CON,9
+ice-devil,proficiency,Saving Throw: WIS,7
+ice-devil,proficiency,Saving Throw: CHA,9
+ice-mephit,proficiency,Skill: Perception,2
+ice-mephit,proficiency,Skill: Stealth,3
+imp,proficiency,Skill: Deception,4
+imp,proficiency,Skill: Insight,3
+imp,proficiency,Skill: Persuasion,4
+imp,proficiency,Skill: Stealth,5
+invisible-stalker,proficiency,Skill: Perception,8
+invisible-stalker,proficiency,Skill: Stealth,10
+jackal,proficiency,Skill: Perception,3
+killer-whale,proficiency,Skill: Perception,3
+knight,proficiency,Saving Throw: CON,4
+knight,proficiency,Saving Throw: WIS,2
+kraken,proficiency,Saving Throw: STR,17
+kraken,proficiency,Saving Throw: DEX,7
+kraken,proficiency,Saving Throw: CON,14
+kraken,proficiency,Saving Throw: INT,13
+kraken,proficiency,Saving Throw: WIS,11
+lamia,proficiency,Skill: Deception,7
+lamia,proficiency,Skill: Insight,4
+lamia,proficiency,Skill: Stealth,3
+lich,proficiency,Saving Throw: CON,10
+lich,proficiency,Saving Throw: INT,12
+lich,proficiency,Saving Throw: WIS,9
+lich,proficiency,Skill: Arcana,18
+lich,proficiency,Skill: History,12
+lich,proficiency,Skill: Insight,9
+lich,proficiency,Skill: Perception,9
+lion,proficiency,Skill: Perception,3
+lion,proficiency,Skill: Stealth,6
+lizardfolk,proficiency,Skill: Perception,3
+lizardfolk,proficiency,Skill: Stealth,4
+lizardfolk,proficiency,Skill: Survival,5
+mage,proficiency,Saving Throw: INT,6
+mage,proficiency,Saving Throw: WIS,4
+mage,proficiency,Skill: Arcana,6
+mage,proficiency,Skill: History,6
+magma-mephit,proficiency,Skill: Stealth,3
+marilith,proficiency,Saving Throw: STR,9
+marilith,proficiency,Saving Throw: CON,10
+marilith,proficiency,Saving Throw: WIS,8
+marilith,proficiency,Saving Throw: CHA,10
+mastiff,proficiency,Skill: Perception,3
+medusa,proficiency,Skill: Deception,5
+medusa,proficiency,Skill: Insight,4
+medusa,proficiency,Skill: Perception,4
+medusa,proficiency,Skill: Stealth,5
+merfolk,proficiency,Skill: Perception,2
+mimic,proficiency,Skill: Stealth,5
+minotaur,proficiency,Skill: Perception,7
+mummy,proficiency,Saving Throw: WIS,2
+mummy-lord,proficiency,Saving Throw: CON,8
+mummy-lord,proficiency,Saving Throw: INT,5
+mummy-lord,proficiency,Saving Throw: WIS,9
+mummy-lord,proficiency,Saving Throw: CHA,8
+mummy-lord,proficiency,Skill: History,5
+mummy-lord,proficiency,Skill: Religion,5
+nalfeshnee,proficiency,Saving Throw: CON,11
+nalfeshnee,proficiency,Saving Throw: INT,9
+nalfeshnee,proficiency,Saving Throw: WIS,6
+nalfeshnee,proficiency,Saving Throw: CHA,7
+night-hag,proficiency,Skill: Deception,7
+night-hag,proficiency,Skill: Insight,6
+night-hag,proficiency,Skill: Perception,6
+night-hag,proficiency,Skill: Stealth,6
+noble,proficiency,Skill: Deception,5
+noble,proficiency,Skill: Insight,4
+noble,proficiency,Skill: Persuasion,5
+octopus,proficiency,Skill: Perception,2
+octopus,proficiency,Skill: Stealth,4
+ogre-zombie,proficiency,Saving Throw: WIS,0
+oni,proficiency,Saving Throw: DEX,3
+oni,proficiency,Saving Throw: CON,6
+oni,proficiency,Saving Throw: WIS,4
+oni,proficiency,Saving Throw: CHA,5
+oni,proficiency,Skill: Arcana,5
+oni,proficiency,Skill: Deception,8
+oni,proficiency,Skill: Perception,4
+orc,proficiency,Skill: Intimidation,2
+otyugh,proficiency,Saving Throw: CON,7
+owl,proficiency,Skill: Perception,3
+owl,proficiency,Skill: Stealth,3
+owlbear,proficiency,Skill: Perception,3
+panther,proficiency,Skill: Perception,4
+panther,proficiency,Skill: Stealth,6
+pegasus,proficiency,Saving Throw: DEX,4
+pegasus,proficiency,Saving Throw: WIS,4
+pegasus,proficiency,Saving Throw: CHA,3
+pegasus,proficiency,Skill: Perception,6
+phase-spider,proficiency,Skill: Stealth,6
+pit-fiend,proficiency,Saving Throw: DEX,8
+pit-fiend,proficiency,Saving Throw: CON,13
+pit-fiend,proficiency,Saving Throw: WIS,10
+planetar,proficiency,Saving Throw: CON,12
+planetar,proficiency,Saving Throw: WIS,11
+planetar,proficiency,Saving Throw: CHA,12
+planetar,proficiency,Skill: Perception,11
+plesiosaurus,proficiency,Skill: Perception,3
+plesiosaurus,proficiency,Skill: Stealth,4
+polar-bear,proficiency,Skill: Perception,3
+priest,proficiency,Skill: Medicine,7
+priest,proficiency,Skill: Persuasion,3
+priest,proficiency,Skill: Religion,4
+pseudodragon,proficiency,Skill: Perception,3
+pseudodragon,proficiency,Skill: Stealth,4
+purple-worm,proficiency,Saving Throw: CON,11
+purple-worm,proficiency,Saving Throw: WIS,4
+quasit,proficiency,Skill: Stealth,5
+rakshasa,proficiency,Skill: Deception,10
+rakshasa,proficiency,Skill: Insight,8
+raven,proficiency,Skill: Perception,3
+red-dragon-wyrmling,proficiency,Saving Throw: DEX,2
+red-dragon-wyrmling,proficiency,Saving Throw: CON,5
+red-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+red-dragon-wyrmling,proficiency,Saving Throw: CHA,4
+red-dragon-wyrmling,proficiency,Skill: Perception,4
+red-dragon-wyrmling,proficiency,Skill: Stealth,2
+reef-shark,proficiency,Skill: Perception,2
+roc,proficiency,Saving Throw: DEX,4
+roc,proficiency,Saving Throw: CON,9
+roc,proficiency,Saving Throw: WIS,4
+roc,proficiency,Saving Throw: CHA,3
+roc,proficiency,Skill: Perception,4
+roper,proficiency,Skill: Perception,6
+roper,proficiency,Skill: Stealth,5
+saber-toothed-tiger,proficiency,Skill: Perception,3
+saber-toothed-tiger,proficiency,Skill: Stealth,6
+sahuagin,proficiency,Skill: Perception,5
+satyr,proficiency,Skill: Perception,2
+satyr,proficiency,Skill: Performance,6
+satyr,proficiency,Skill: Stealth,5
+scout,proficiency,Skill: Nature,4
+scout,proficiency,Skill: Perception,5
+scout,proficiency,Skill: Stealth,6
+scout,proficiency,Skill: Survival,5
+shadow,proficiency,Skill: Stealth,4
+shambling-mound,proficiency,Skill: Stealth,2
+silver-dragon-wyrmling,proficiency,Saving Throw: DEX,2
+silver-dragon-wyrmling,proficiency,Saving Throw: CON,5
+silver-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+silver-dragon-wyrmling,proficiency,Saving Throw: CHA,4
+silver-dragon-wyrmling,proficiency,Skill: Perception,4
+silver-dragon-wyrmling,proficiency,Skill: Stealth,2
+solar,proficiency,Saving Throw: INT,14
+solar,proficiency,Saving Throw: WIS,14
+solar,proficiency,Saving Throw: CHA,17
+solar,proficiency,Skill: Perception,14
+spider,proficiency,Skill: Stealth,4
+spirit-naga,proficiency,Saving Throw: DEX,6
+spirit-naga,proficiency,Saving Throw: CON,5
+spirit-naga,proficiency,Saving Throw: WIS,5
+spirit-naga,proficiency,Saving Throw: CHA,6
+sprite,proficiency,Skill: Perception,3
+sprite,proficiency,Skill: Stealth,8
+spy,proficiency,Skill: Deception,5
+spy,proficiency,Skill: Insight,4
+spy,proficiency,Skill: Investigation,5
+spy,proficiency,Skill: Perception,6
+spy,proficiency,Skill: Persuasion,5
+spy,proficiency,Skill: Stealth,4
+stone-giant,proficiency,Saving Throw: DEX,5
+stone-giant,proficiency,Saving Throw: CON,8
+stone-giant,proficiency,Saving Throw: WIS,4
+stone-giant,proficiency,Skill: Athletics,12
+stone-giant,proficiency,Skill: Perception,4
+storm-giant,proficiency,Saving Throw: STR,14
+storm-giant,proficiency,Saving Throw: CON,10
+storm-giant,proficiency,Saving Throw: WIS,9
+storm-giant,proficiency,Saving Throw: CHA,9
+storm-giant,proficiency,Skill: Arcana,8
+storm-giant,proficiency,Skill: Athletics,14
+storm-giant,proficiency,Skill: History,8
+storm-giant,proficiency,Skill: Perception,9
+succubus-incubus,proficiency,Skill: Deception,9
+succubus-incubus,proficiency,Skill: Insight,5
+succubus-incubus,proficiency,Skill: Perception,5
+succubus-incubus,proficiency,Skill: Persuasion,9
+succubus-incubus,proficiency,Skill: Stealth,7
+tarrasque,proficiency,Saving Throw: INT,5
+tarrasque,proficiency,Saving Throw: WIS,9
+tarrasque,proficiency,Saving Throw: CHA,9
+thug,proficiency,Skill: Intimidation,2
+tiger,proficiency,Skill: Perception,3
+tiger,proficiency,Skill: Stealth,6
+troll,proficiency,Skill: Perception,2
+tyrannosaurus-rex,proficiency,Skill: Perception,4
+vampire-bat,proficiency,Saving Throw: DEX,9
+vampire-bat,proficiency,Saving Throw: WIS,7
+vampire-bat,proficiency,Saving Throw: CHA,9
+vampire-bat,proficiency,Skill: Perception,7
+vampire-bat,proficiency,Skill: Stealth,9
+vampire-mist,proficiency,Saving Throw: DEX,9
+vampire-mist,proficiency,Saving Throw: WIS,7
+vampire-mist,proficiency,Saving Throw: CHA,9
+vampire-mist,proficiency,Skill: Perception,7
+vampire-mist,proficiency,Skill: Stealth,9
+vampire-spawn,proficiency,Saving Throw: DEX,6
+vampire-spawn,proficiency,Saving Throw: WIS,3
+vampire-spawn,proficiency,Skill: Perception,3
+vampire-spawn,proficiency,Skill: Stealth,6
+vampire-vampire,proficiency,Saving Throw: DEX,9
+vampire-vampire,proficiency,Saving Throw: WIS,7
+vampire-vampire,proficiency,Saving Throw: CHA,9
+vampire-vampire,proficiency,Skill: Perception,7
+vampire-vampire,proficiency,Skill: Stealth,9
+veteran,proficiency,Skill: Athletics,5
+veteran,proficiency,Skill: Perception,2
+vrock,proficiency,Saving Throw: DEX,5
+vrock,proficiency,Saving Throw: WIS,4
+vrock,proficiency,Saving Throw: CHA,2
+vulture,proficiency,Skill: Perception,3
+weasel,proficiency,Skill: Perception,3
+weasel,proficiency,Skill: Stealth,5
+werebear-bear,proficiency,Skill: Perception,7
+werebear-human,proficiency,Skill: Perception,7
+werebear-hybrid,proficiency,Skill: Perception,7
+wereboar-boar,proficiency,Skill: Perception,2
+wereboar-human,proficiency,Skill: Perception,2
+wereboar-hybrid,proficiency,Skill: Perception,2
+wererat-human,proficiency,Skill: Perception,2
+wererat-human,proficiency,Skill: Stealth,4
+wererat-hybrid,proficiency,Skill: Perception,2
+wererat-hybrid,proficiency,Skill: Stealth,4
+wererat-rat,proficiency,Skill: Perception,2
+wererat-rat,proficiency,Skill: Stealth,4
+weretiger-human,proficiency,Skill: Perception,5
+weretiger-human,proficiency,Skill: Stealth,4
+weretiger-hybrid,proficiency,Skill: Perception,5
+weretiger-hybrid,proficiency,Skill: Stealth,4
+weretiger-tiger,proficiency,Skill: Perception,5
+weretiger-tiger,proficiency,Skill: Stealth,4
+werewolf-human,proficiency,Skill: Perception,4
+werewolf-hybrid,proficiency,Skill: Perception,4
+werewolf-wolf,proficiency,Skill: Perception,4
+white-dragon-wyrmling,proficiency,Saving Throw: DEX,2
+white-dragon-wyrmling,proficiency,Saving Throw: CON,4
+white-dragon-wyrmling,proficiency,Saving Throw: WIS,2
+white-dragon-wyrmling,proficiency,Saving Throw: CHA,2
+white-dragon-wyrmling,proficiency,Skill: Perception,4
+white-dragon-wyrmling,proficiency,Skill: Stealth,2
+wight,proficiency,Skill: Perception,3
+wight,proficiency,Skill: Stealth,4
+winter-wolf,proficiency,Skill: Perception,5
+winter-wolf,proficiency,Skill: Stealth,3
+wolf,proficiency,Skill: Perception,3
+wolf,proficiency,Skill: Stealth,4
+worg,proficiency,Skill: Perception,4
+wyvern,proficiency,Skill: Perception,4
+xorn,proficiency,Skill: Perception,6
+xorn,proficiency,Skill: Stealth,3
+young-black-dragon,proficiency,Saving Throw: DEX,5
+young-black-dragon,proficiency,Saving Throw: CON,6
+young-black-dragon,proficiency,Saving Throw: WIS,3
+young-black-dragon,proficiency,Saving Throw: CHA,5
+young-black-dragon,proficiency,Skill: Perception,6
+young-black-dragon,proficiency,Skill: Stealth,5
+young-blue-dragon,proficiency,Saving Throw: DEX,4
+young-blue-dragon,proficiency,Saving Throw: CON,8
+young-blue-dragon,proficiency,Saving Throw: WIS,5
+young-blue-dragon,proficiency,Saving Throw: CHA,7
+young-blue-dragon,proficiency,Skill: Perception,9
+young-blue-dragon,proficiency,Skill: Stealth,4
+young-brass-dragon,proficiency,Saving Throw: DEX,3
+young-brass-dragon,proficiency,Saving Throw: CON,6
+young-brass-dragon,proficiency,Saving Throw: WIS,3
+young-brass-dragon,proficiency,Saving Throw: CHA,5
+young-brass-dragon,proficiency,Skill: Perception,6
+young-brass-dragon,proficiency,Skill: Persuasion,5
+young-brass-dragon,proficiency,Skill: Stealth,3
+young-bronze-dragon,proficiency,Saving Throw: DEX,3
+young-bronze-dragon,proficiency,Saving Throw: CON,7
+young-bronze-dragon,proficiency,Saving Throw: WIS,4
+young-bronze-dragon,proficiency,Saving Throw: CHA,6
+young-bronze-dragon,proficiency,Skill: Insight,4
+young-bronze-dragon,proficiency,Skill: Perception,7
+young-bronze-dragon,proficiency,Skill: Stealth,3
+young-copper-dragon,proficiency,Saving Throw: DEX,4
+young-copper-dragon,proficiency,Saving Throw: CON,6
+young-copper-dragon,proficiency,Saving Throw: WIS,4
+young-copper-dragon,proficiency,Saving Throw: CHA,5
+young-copper-dragon,proficiency,Skill: Deception,5
+young-copper-dragon,proficiency,Skill: Perception,7
+young-copper-dragon,proficiency,Skill: Stealth,4
+young-gold-dragon,proficiency,Saving Throw: DEX,6
+young-gold-dragon,proficiency,Saving Throw: CON,9
+young-gold-dragon,proficiency,Saving Throw: WIS,5
+young-gold-dragon,proficiency,Saving Throw: CHA,9
+young-gold-dragon,proficiency,Skill: Insight,5
+young-gold-dragon,proficiency,Skill: Perception,9
+young-gold-dragon,proficiency,Skill: Persuasion,9
+young-gold-dragon,proficiency,Skill: Stealth,6
+young-green-dragon,proficiency,Saving Throw: DEX,4
+young-green-dragon,proficiency,Saving Throw: CON,6
+young-green-dragon,proficiency,Saving Throw: WIS,4
+young-green-dragon,proficiency,Saving Throw: CHA,5
+young-green-dragon,proficiency,Skill: Deception,5
+young-green-dragon,proficiency,Skill: Perception,7
+young-green-dragon,proficiency,Skill: Stealth,4
+young-red-dragon,proficiency,Saving Throw: DEX,4
+young-red-dragon,proficiency,Saving Throw: CON,9
+young-red-dragon,proficiency,Saving Throw: WIS,4
+young-red-dragon,proficiency,Saving Throw: CHA,8
+young-red-dragon,proficiency,Skill: Perception,8
+young-red-dragon,proficiency,Skill: Stealth,4
+young-silver-dragon,proficiency,Saving Throw: DEX,4
+young-silver-dragon,proficiency,Saving Throw: CON,9
+young-silver-dragon,proficiency,Saving Throw: WIS,4
+young-silver-dragon,proficiency,Saving Throw: CHA,8
+young-silver-dragon,proficiency,Skill: Arcana,6
+young-silver-dragon,proficiency,Skill: History,6
+young-silver-dragon,proficiency,Skill: Perception,8
+young-silver-dragon,proficiency,Skill: Stealth,4
+young-white-dragon,proficiency,Saving Throw: DEX,3
+young-white-dragon,proficiency,Saving Throw: CON,7
+young-white-dragon,proficiency,Saving Throw: WIS,3
+young-white-dragon,proficiency,Saving Throw: CHA,4
+young-white-dragon,proficiency,Skill: Perception,6
+young-white-dragon,proficiency,Skill: Stealth,3
+zombie,proficiency,Saving Throw: WIS,0
+aboleth,language,Deep Speech,
+aboleth,language, telepathy 120 ft.,120
+acolyte,language,any one language (usually Common),
+adult-black-dragon,language,Common,
+adult-black-dragon,language, Draconic,
+adult-blue-dragon,language,Common,
+adult-blue-dragon,language, Draconic,
+adult-brass-dragon,language,Common,
+adult-brass-dragon,language, Draconic,
+adult-bronze-dragon,language,Common,
+adult-bronze-dragon,language, Draconic,
+adult-copper-dragon,language,Common,
+adult-copper-dragon,language, Draconic,
+adult-gold-dragon,language,Common,
+adult-gold-dragon,language, Draconic,
+adult-green-dragon,language,Common,
+adult-green-dragon,language, Draconic,
+adult-red-dragon,language,Common,
+adult-red-dragon,language, Draconic,
+adult-silver-dragon,language,Common,
+adult-silver-dragon,language, Draconic,
+adult-white-dragon,language,Common,
+adult-white-dragon,language, Draconic,
+air-elemental,language,Auran,
+ancient-black-dragon,language,Common,
+ancient-black-dragon,language, Draconic,
+ancient-blue-dragon,language,Common,
+ancient-blue-dragon,language, Draconic,
+ancient-brass-dragon,language,Common,
+ancient-brass-dragon,language, Draconic,
+ancient-bronze-dragon,language,Common,
+ancient-bronze-dragon,language, Draconic,
+ancient-copper-dragon,language,Common,
+ancient-copper-dragon,language, Draconic,
+ancient-gold-dragon,language,Common,
+ancient-gold-dragon,language, Draconic,
+ancient-green-dragon,language,Common,
+ancient-green-dragon,language, Draconic,
+ancient-red-dragon,language,Common,
+ancient-red-dragon,language, Draconic,
+ancient-silver-dragon,language,Common,
+ancient-silver-dragon,language, Draconic,
+ancient-white-dragon,language,Common,
+ancient-white-dragon,language, Draconic,
+androsphinx,language,Common,
+androsphinx,language, Sphinx,
+animated-armor,language,,
+ankheg,language,,
+ape,language,,
+archmage,language,any six languages,
+assassin,language,Thieves' cant plus any two languages,
+awakened-shrub,language,one language known by its creator,
+awakened-tree,language,one language known by its creator,
+axe-beak,language,,
+azer,language,Ignan,
+baboon,language,,
+badger,language,,
+balor,language,Abyssal,
+balor,language, telepathy 120 ft.,120
+bandit,language,any one language (usually Common),
+bandit-captain,language,any two languages,
+barbed-devil,language,Infernal,
+barbed-devil,language, telepathy 120 ft.,120
+basilisk,language,,
+bat,language,,
+bearded-devil,language,Infernal,
+bearded-devil,language, telepathy 120 ft.,120
+behir,language,Draconic,
+berserker,language,any one language (usually Common),
+black-bear,language,,
+black-dragon-wyrmling,language,Draconic,
+black-pudding,language,,
+blink-dog,language,Blink Dog,
+blink-dog,language, understands Sylvan but can't speak it,
+blood-hawk,language,,
+blue-dragon-wyrmling,language,Draconic,
+boar,language,,
+bone-devil,language,Infernal,
+bone-devil,language, telepathy 120 ft.,120
+brass-dragon-wyrmling,language,Draconic,
+bronze-dragon-wyrmling,language,Draconic,
+brown-bear,language,,
+bugbear,language,Common,
+bugbear,language, Goblin,
+bulette,language,,
+camel,language,,
+cat,language,,
+centaur,language,Elvish,
+centaur,language, Sylvan,
+chain-devil,language,Infernal,
+chain-devil,language, telepathy 120 ft.,120
+chimera,language,understands Draconic but can't speak,
+chuul,language,understands Deep Speech but can't speak,
+clay-golem,language,understands the languages of its creator but can't speak,
+cloaker,language,Deep Speech,
+cloaker,language, Undercommon,
+cloud-giant,language,Common,
+cloud-giant,language, Giant,
+cockatrice,language,,
+commoner,language,any one language (usually Common),
+constrictor-snake,language,,
+copper-dragon-wyrmling,language,Draconic,
+couatl,language,all,
+couatl,language, telepathy 120 ft.,120
+crab,language,,
+crocodile,language,,
+cult-fanatic,language,any one language (usually Common),
+cultist,language,any one language (usually Common),
+darkmantle,language,,
+death-dog,language,,
+deep-gnome-svirfneblin,language,Gnomish,
+deep-gnome-svirfneblin,language, Terran,
+deep-gnome-svirfneblin,language, Undercommon,
+deer,language,,
+deva,language,all,
+deva,language, telepathy 120 ft.,120
+dire-wolf,language,,
+djinni,language,Auran,
+doppelganger,language,Common,
+draft-horse,language,,
+dragon-turtle,language,Aquan,
+dragon-turtle,language, Draconic,
+dretch,language,Abyssal,
+dretch,language, telepathy 60 ft. (works only with creatures that understand Abyssal),60
+drider,language,Elvish,
+drider,language, Undercommon,
+drow,language,Elvish,
+drow,language, Undercommon,
+druid,language,Druidic plus any two languages,
+dryad,language,Elvish,
+dryad,language, Sylvan,
+duergar,language,Dwarvish,
+duergar,language, Undercommon,
+dust-mephit,language,Auran,
+dust-mephit,language, Terran,
+eagle,language,,
+earth-elemental,language,Terran,
+efreeti,language,Ignan,
+elephant,language,,
+elk,language,,
+erinyes,language,Infernal,
+erinyes,language, telepathy 120 ft.,120
+ettercap,language,,
+ettin,language,Giant,
+ettin,language, Orc,
+fire-elemental,language,Ignan,
+fire-giant,language,Giant,
+flesh-golem,language,understands the languages of its creator but can't speak,
+flying-snake,language,,
+flying-sword,language,,
+frog,language,,
+frost-giant,language,Giant,
+gargoyle,language,Terran,
+gelatinous-cube,language,,
+ghast,language,Common,
+ghost,language,any languages it knew in life,
+ghoul,language,Common,
+giant-ape,language,,
+giant-badger,language,,
+giant-bat,language,,
+giant-boar,language,,
+giant-centipede,language,,
+giant-constrictor-snake,language,,
+giant-crab,language,,
+giant-crocodile,language,,
+giant-eagle,language,Giant Eagle,
+giant-eagle,language, understands Common and Auran but can't speak,
+giant-elk,language,Giant Elk,
+giant-elk,language, understands Common,
+giant-elk,language, Elvish,
+giant-elk,language, and Sylvan but can't speak,
+giant-fire-beetle,language,,
+giant-frog,language,,
+giant-goat,language,,
+giant-hyena,language,,
+giant-lizard,language,,
+giant-octopus,language,,
+giant-owl,language,Giant Owl,
+giant-owl,language, understands Common,
+giant-owl,language, Elvish,
+giant-owl,language, and Sylvan but can't speak,
+giant-poisonous-snake,language,,
+giant-rat,language,,
+giant-rat-diseased,language,,
+giant-scorpion,language,,
+giant-sea-horse,language,,
+giant-shark,language,,
+giant-spider,language,,
+giant-toad,language,,
+giant-vulture,language,understands Common but can't speak,
+giant-wasp,language,,
+giant-weasel,language,,
+giant-wolf-spider,language,,
+gibbering-mouther,language,,
+glabrezu,language,Abyssal,
+glabrezu,language, telepathy 120 ft.,120
+gladiator,language,any one language (usually Common),
+gnoll,language,Gnoll,
+goat,language,,
+goblin,language,Common,
+goblin,language, Goblin,
+gold-dragon-wyrmling,language,Draconic,
+gorgon,language,,
+gray-ooze,language,,
+green-dragon-wyrmling,language,Draconic,
+green-hag,language,Common,
+green-hag,language, Draconic,
+green-hag,language, Sylvan,
+grick,language,,
+griffon,language,,
+grimlock,language,Undercommon,
+guard,language,any one language (usually Common),
+guardian-naga,language,Celestial,
+guardian-naga,language, Common,
+gynosphinx,language,Common,
+gynosphinx,language, Sphinx,
+half-red-dragon-veteran,language,Common,
+half-red-dragon-veteran,language, Draconic,
+harpy,language,Common,
+hawk,language,,
+hell-hound,language,understands Infernal but can't speak it,
+hezrou,language,Abyssal,
+hezrou,language, telepathy 120 ft.,120
+hill-giant,language,Giant,
+hippogriff,language,,
+hobgoblin,language,Common,
+hobgoblin,language, Goblin,
+homunculus,language,understands the languages of its creator but can't speak,
+horned-devil,language,Infernal,
+horned-devil,language, telepathy 120 ft.,120
+hunter-shark,language,,
+hydra,language,,
+hyena,language,,
+ice-devil,language,Infernal,
+ice-devil,language, telepathy 120 ft.,120
+ice-mephit,language,Aquan,
+ice-mephit,language, Auran,
+imp,language,Infernal,
+imp,language, Common,
+invisible-stalker,language,Auran,
+invisible-stalker,language, understands Common but doesn't speak it,
+iron-golem,language,understands the languages of its creator but can't speak,
+jackal,language,,
+killer-whale,language,,
+knight,language,any one language (usually Common),
+kobold,language,Common,
+kobold,language, Draconic,
+kraken,language,understands Abyssal,
+kraken,language, Celestial,
+kraken,language, Infernal,
+kraken,language, and Primordial but can't speak,
+kraken,language, telepathy 120 ft.,120
+lamia,language,Abyssal,
+lamia,language, Common,
+lemure,language,understands infernal but can't speak,
+lich,language,Common plus up to five other languages,
+lion,language,,
+lizard,language,,
+lizardfolk,language,Draconic,
+mage,language,any four languages,
+magma-mephit,language,Ignan,
+magma-mephit,language, Terran,
+magmin,language,Ignan,
+mammoth,language,,
+manticore,language,,
+marilith,language,Abyssal,
+marilith,language, telepathy 120 ft.,120
+mastiff,language,,
+medusa,language,Common,
+merfolk,language,Aquan,
+merfolk,language, Common,
+merrow,language,Abyssal,
+merrow,language, Aquan,
+mimic,language,,
+minotaur,language,Abyssal,
+minotaur-skeleton,language,understands Abyssal but can't speak,
+mule,language,,
+mummy,language,the languages it knew in life,
+mummy-lord,language,the languages it knew in life,
+nalfeshnee,language,Abyssal,
+nalfeshnee,language, telepathy 120 ft.,120
+night-hag,language,Abyssal,
+night-hag,language, Common,
+night-hag,language, Infernal,
+night-hag,language, Primordial,
+nightmare,language,understands Abyssal,
+nightmare,language, Common,
+nightmare,language, and Infernal but can't speak,
+noble,language,any two languages,
+ochre-jelly,language,,
+octopus,language,,
+ogre,language,Common,
+ogre,language, Giant,
+ogre-zombie,language,understands Common and Giant but can't speak,
+oni,language,Common,
+oni,language, Giant,
+orc,language,Common,
+orc,language, Orc,
+otyugh,language,Otyugh,
+owl,language,,
+owlbear,language,,
+panther,language,,
+pegasus,language,understands Celestial,
+pegasus,language, Common,
+pegasus,language, Elvish,
+pegasus,language, and Sylvan but can't speak,
+phase-spider,language,,
+pit-fiend,language,Infernal,
+pit-fiend,language, telepathy 120 ft.,120
+planetar,language,all,
+planetar,language, telepathy 120 ft.,120
+plesiosaurus,language,,
+poisonous-snake,language,,
+polar-bear,language,,
+pony,language,,
+priest,language,any two languages,
+pseudodragon,language,understands Common and Draconic but can't speak,
+purple-worm,language,,
+quasit,language,Abyssal,
+quasit,language, Common,
+quipper,language,,
+rakshasa,language,Common,
+rakshasa,language, Infernal,
+rat,language,,
+raven,language,,
+red-dragon-wyrmling,language,Draconic,
+reef-shark,language,,
+remorhaz,language,,
+rhinoceros,language,,
+riding-horse,language,,
+roc,language,,
+roper,language,,
+rug-of-smothering,language,,
+rust-monster,language,,
+saber-toothed-tiger,language,,
+sahuagin,language,Sahuagin,
+salamander,language,Ignan,
+satyr,language,Common,
+satyr,language, Elvish,
+satyr,language, Sylvan,
+scorpion,language,,
+scout,language,any one language (usually Common),
+sea-hag,language,Aquan,
+sea-hag,language, Common,
+sea-hag,language, Giant,
+sea-horse,language,,
+shadow,language,,
+shambling-mound,language,,
+shield-guardian,language,understands commands given in any language but can't speak,
+shrieker,language,,
+silver-dragon-wyrmling,language,Draconic,
+skeleton,language,understands all languages it spoke in life but can't speak,
+solar,language,all,
+solar,language, telepathy 120 ft.,120
+specter,language,understands all languages it knew in life but can't speak,
+spider,language,,
+spirit-naga,language,Abyssal,
+spirit-naga,language, Common,
+sprite,language,Common,
+sprite,language, Elvish,
+sprite,language, Sylvan,
+spy,language,any two languages,
+steam-mephit,language,Aquan,
+steam-mephit,language, Ignan,
+stirge,language,,
+stone-giant,language,Giant,
+stone-golem,language,understands the languages of its creator but can't speak,
+storm-giant,language,Common,
+storm-giant,language, Giant,
+succubus-incubus,language,Abyssal,
+succubus-incubus,language, Common,
+succubus-incubus,language, Infernal,
+succubus-incubus,language, telepathy 60 ft.,60
+swarm-of-bats,language,,
+swarm-of-beetles,language,,
+swarm-of-centipedes,language,,
+swarm-of-insects,language,,
+swarm-of-poisonous-snakes,language,,
+swarm-of-quippers,language,,
+swarm-of-rats,language,,
+swarm-of-ravens,language,,
+swarm-of-spiders,language,,
+swarm-of-wasps,language,,
+tarrasque,language,,
+thug,language,any one language (usually Common),
+tiger,language,,
+treant,language,Common,
+treant,language, Druidic,
+treant,language, Elvish,
+treant,language, Sylvan,
+tribal-warrior,language,any one language,
+triceratops,language,,
+troll,language,Giant,
+tyrannosaurus-rex,language,,
+unicorn,language,Celestial,
+unicorn,language, Elvish,
+unicorn,language, Sylvan,
+unicorn,language, telepathy 60 ft.,60
+vampire-bat,language,the languages it knew in life,
+vampire-mist,language,the languages it knew in life,
+vampire-spawn,language,the languages it knew in life,
+vampire-vampire,language,the languages it knew in life,
+veteran,language,any one language (usually Common),
+violet-fungus,language,,
+vrock,language,Abyssal,
+vrock,language, telepathy 120 ft.,120
+vulture,language,,
+warhorse,language,,
+warhorse-skeleton,language,,
+water-elemental,language,Aquan,
+weasel,language,,
+werebear-bear,language,,
+werebear-human,language,Common,
+werebear-hybrid,language,Common,
+wereboar-boar,language,,
+wereboar-human,language,Common (can't speak in boar form),
+wereboar-hybrid,language,Common,
+wererat-human,language,Common,
+wererat-hybrid,language,Common,
+wererat-rat,language,,
+weretiger-human,language,Common,
+weretiger-hybrid,language,Common,
+weretiger-tiger,language,,
+werewolf-human,language,Common,
+werewolf-hybrid,language,Common,
+werewolf-wolf,language,,
+white-dragon-wyrmling,language,Draconic,
+wight,language,the languages it knew in life,
+will-o-wisp,language,the languages it knew in life,
+winter-wolf,language,Common,
+winter-wolf,language, Giant,
+winter-wolf,language, Winter Wolf,
+wolf,language,,
+worg,language,Goblin,
+worg,language, Worg,
+wraith,language,the languages it knew in life,
+wyvern,language,,
+xorn,language,Terran,
+young-black-dragon,language,Common,
+young-black-dragon,language, Draconic,
+young-blue-dragon,language,Common,
+young-blue-dragon,language, Draconic,
+young-brass-dragon,language,Common,
+young-brass-dragon,language, Draconic,
+young-bronze-dragon,language,Common,
+young-bronze-dragon,language, Draconic,
+young-copper-dragon,language,Common,
+young-copper-dragon,language, Draconic,
+young-gold-dragon,language,Common,
+young-gold-dragon,language, Draconic,
+young-green-dragon,language,Common,
+young-green-dragon,language, Draconic,
+young-red-dragon,language,Common,
+young-red-dragon,language, Draconic,
+young-silver-dragon,language,Common,
+young-silver-dragon,language, Draconic,
+young-white-dragon,language,Common,
+young-white-dragon,language, Draconic,
+zombie,language,understands all languages it spoke in life but can't speak,
+vampire-bat,forms,"Vampire, Vampire Form",
+vampire-bat,forms,"Vampire, Mist Form",
+vampire-mist,forms,"Vampire, Vampire Form",
+vampire-mist,forms,"Vampire, Bat Form",
+vampire-vampire,forms,"Vampire, Bat Form",
+vampire-vampire,forms,"Vampire, Mist Form",
+werebear-bear,forms,"Werebear, Human Form",
+werebear-bear,forms,"Werebear, Hybrid Form",
+werebear-human,forms,"Werebear, Bear Form",
+werebear-human,forms,"Werebear, Hybrid Form",
+werebear-hybrid,forms,"Werebear, Bear Form",
+werebear-hybrid,forms,"Werebear, Human Form",
+wereboar-boar,forms,"Wereboar, Human Form",
+wereboar-boar,forms,"Wereboar, Hybrid Form",
+wereboar-human,forms,"Wereboar, Boar Form",
+wereboar-human,forms,"Wereboar, Hybrid Form",
+wereboar-hybrid,forms,"Wereboar, Boar Form",
+wereboar-hybrid,forms,"Wereboar, Human Form",
+wererat-human,forms,"Wererat, Hybrid Form",
+wererat-human,forms,"Wererat, Rat Form",
+wererat-hybrid,forms,"Wererat, Human Form",
+wererat-hybrid,forms,"Wererat, Rat Form",
+wererat-rat,forms,"Wererat, Human Form",
+wererat-rat,forms,"Wererat, Hybrid Form",
+weretiger-human,forms,"Weretiger, Hybrid Form",
+weretiger-human,forms,"Weretiger, Tiger Form",
+weretiger-hybrid,forms,"Weretiger, Human Form",
+weretiger-hybrid,forms,"Weretiger, Tiger Form",
+weretiger-tiger,forms,"Weretiger, Human Form",
+weretiger-tiger,forms,"Weretiger, Hybrid Form",
+werewolf-human,forms,"Werewolf, Hybrid Form",
+werewolf-human,forms,"Werewolf, Wolf Form",
+werewolf-hybrid,forms,"Werewolf, Human Form",
+werewolf-hybrid,forms,"Werewolf, Wolf Form",
+werewolf-wolf,forms,"Werewolf, Human Form",
+werewolf-wolf,forms,"Werewolf, Hybrid Form",
+aboleth,senses,darkvision,120
+aboleth,senses,passive_perception,20
+acolyte,senses,passive_perception,12
+adult-black-dragon,senses,blindsight,60
+adult-black-dragon,senses,darkvision,120
+adult-black-dragon,senses,passive_perception,21
+adult-blue-dragon,senses,blindsight,60
+adult-blue-dragon,senses,darkvision,120
+adult-blue-dragon,senses,passive_perception,22
+adult-brass-dragon,senses,blindsight,60
+adult-brass-dragon,senses,darkvision,120
+adult-brass-dragon,senses,passive_perception,21
+adult-bronze-dragon,senses,blindsight,60
+adult-bronze-dragon,senses,darkvision,120
+adult-bronze-dragon,senses,passive_perception,22
+adult-copper-dragon,senses,blindsight,60
+adult-copper-dragon,senses,darkvision,120
+adult-copper-dragon,senses,passive_perception,22
+adult-gold-dragon,senses,blindsight,60
+adult-gold-dragon,senses,darkvision,120
+adult-gold-dragon,senses,passive_perception,24
+adult-green-dragon,senses,blindsight,60
+adult-green-dragon,senses,darkvision,120
+adult-green-dragon,senses,passive_perception,22
+adult-red-dragon,senses,blindsight,60
+adult-red-dragon,senses,darkvision,120
+adult-red-dragon,senses,passive_perception,23
+adult-silver-dragon,senses,blindsight,60
+adult-silver-dragon,senses,darkvision,120
+adult-silver-dragon,senses,passive_perception,21
+adult-white-dragon,senses,blindsight,60
+adult-white-dragon,senses,darkvision,120
+adult-white-dragon,senses,passive_perception,21
+air-elemental,senses,darkvision,60
+air-elemental,senses,passive_perception,10
+ancient-black-dragon,senses,blindsight,60
+ancient-black-dragon,senses,darkvision,120
+ancient-black-dragon,senses,passive_perception,26
+ancient-blue-dragon,senses,blindsight,60
+ancient-blue-dragon,senses,darkvision,120
+ancient-blue-dragon,senses,passive_perception,27
+ancient-brass-dragon,senses,blindsight,60
+ancient-brass-dragon,senses,darkvision,120
+ancient-brass-dragon,senses,passive_perception,24
+ancient-bronze-dragon,senses,blindsight,60
+ancient-bronze-dragon,senses,darkvision,120
+ancient-bronze-dragon,senses,passive_perception,27
+ancient-copper-dragon,senses,blindsight,60
+ancient-copper-dragon,senses,darkvision,120
+ancient-copper-dragon,senses,passive_perception,27
+ancient-gold-dragon,senses,blindsight,60
+ancient-gold-dragon,senses,darkvision,120
+ancient-gold-dragon,senses,passive_perception,27
+ancient-green-dragon,senses,blindsight,60
+ancient-green-dragon,senses,darkvision,120
+ancient-green-dragon,senses,passive_perception,27
+ancient-red-dragon,senses,blindsight,60
+ancient-red-dragon,senses,darkvision,120
+ancient-red-dragon,senses,passive_perception,26
+ancient-silver-dragon,senses,blindsight,60
+ancient-silver-dragon,senses,darkvision,120
+ancient-silver-dragon,senses,passive_perception,26
+ancient-white-dragon,senses,blindsight,60
+ancient-white-dragon,senses,darkvision,120
+ancient-white-dragon,senses,passive_perception,23
+androsphinx,senses,truesight,120
+androsphinx,senses,passive_perception,20
+animated-armor,senses,blindsight,60
+animated-armor,senses,passive_perception,6
+ankheg,senses,darkvision,60
+ankheg,senses,tremorsense,60
+ankheg,senses,passive_perception,11
+ape,senses,passive_perception,13
+archmage,senses,passive_perception,12
+assassin,senses,passive_perception,13
+awakened-shrub,senses,passive_perception,10
+awakened-tree,senses,passive_perception,10
+axe-beak,senses,passive_perception,10
+azer,senses,passive_perception,11
+baboon,senses,passive_perception,11
+badger,senses,darkvision,30
+badger,senses,passive_perception,11
+balor,senses,truesight,120
+balor,senses,passive_perception,13
+bandit,senses,passive_perception,10
+bandit-captain,senses,passive_perception,10
+barbed-devil,senses,darkvision,120
+barbed-devil,senses,passive_perception,18
+basilisk,senses,darkvision,60
+basilisk,senses,passive_perception,9
+bat,senses,blindsight,60
+bat,senses,passive_perception,11
+bearded-devil,senses,darkvision,120
+bearded-devil,senses,passive_perception,10
+behir,senses,darkvision,90
+behir,senses,passive_perception,16
+berserker,senses,passive_perception,10
+black-bear,senses,passive_perception,13
+black-dragon-wyrmling,senses,blindsight,10
+black-dragon-wyrmling,senses,darkvision,60
+black-dragon-wyrmling,senses,passive_perception,14
+black-pudding,senses,blindsight,60
+black-pudding,senses,passive_perception,8
+blink-dog,senses,passive_perception,10
+blood-hawk,senses,passive_perception,14
+blue-dragon-wyrmling,senses,blindsight,10
+blue-dragon-wyrmling,senses,darkvision,60
+blue-dragon-wyrmling,senses,passive_perception,14
+boar,senses,passive_perception,9
+bone-devil,senses,darkvision,120
+bone-devil,senses,passive_perception,12
+brass-dragon-wyrmling,senses,blindsight,10
+brass-dragon-wyrmling,senses,darkvision,60
+brass-dragon-wyrmling,senses,passive_perception,14
+bronze-dragon-wyrmling,senses,blindsight,10
+bronze-dragon-wyrmling,senses,darkvision,60
+bronze-dragon-wyrmling,senses,passive_perception,14
+brown-bear,senses,passive_perception,13
+bugbear,senses,darkvision,60
+bugbear,senses,passive_perception,10
+bulette,senses,darkvision,60
+bulette,senses,tremorsense,60
+bulette,senses,passive_perception,16
+camel,senses,passive_perception,9
+cat,senses,passive_perception,13
+centaur,senses,passive_perception,13
+chain-devil,senses,darkvision,120
+chain-devil,senses,passive_perception,11
+chimera,senses,darkvision,60
+chimera,senses,passive_perception,18
+chuul,senses,darkvision,60
+chuul,senses,passive_perception,14
+clay-golem,senses,darkvision,60
+clay-golem,senses,passive_perception,9
+cloaker,senses,darkvision,60
+cloaker,senses,passive_perception,11
+cloud-giant,senses,passive_perception,17
+cockatrice,senses,darkvision,60
+cockatrice,senses,passive_perception,11
+commoner,senses,passive_perception,10
+constrictor-snake,senses,blindsight,10
+constrictor-snake,senses,passive_perception,10
+copper-dragon-wyrmling,senses,blindsight,10
+copper-dragon-wyrmling,senses,darkvision,60
+copper-dragon-wyrmling,senses,passive_perception,14
+couatl,senses,truesight,120
+couatl,senses,passive_perception,15
+crab,senses,blindsight,30
+crab,senses,passive_perception,9
+crocodile,senses,passive_perception,10
+cult-fanatic,senses,passive_perception,11
+cultist,senses,passive_perception,10
+darkmantle,senses,blindsight,60
+darkmantle,senses,passive_perception,10
+death-dog,senses,darkvision,120
+death-dog,senses,passive_perception,15
+deep-gnome-svirfneblin,senses,darkvision,120
+deep-gnome-svirfneblin,senses,passive_perception,12
+deer,senses,passive_perception,12
+deva,senses,darkvision,120
+deva,senses,passive_perception,19
+dire-wolf,senses,passive_perception,13
+djinni,senses,darkvision,120
+djinni,senses,passive_perception,13
+doppelganger,senses,darkvision,60
+doppelganger,senses,passive_perception,11
+draft-horse,senses,passive_perception,10
+dragon-turtle,senses,darkvision,120
+dragon-turtle,senses,passive_perception,11
+dretch,senses,darkvision,60
+dretch,senses,passive_perception,9
+drider,senses,darkvision,120
+drider,senses,passive_perception,15
+drow,senses,darkvision,120
+drow,senses,passive_perception,12
+druid,senses,passive_perception,14
+dryad,senses,darkvision,60
+dryad,senses,passive_perception,14
+duergar,senses,darkvision,120
+duergar,senses,passive_perception,10
+dust-mephit,senses,darkvision,60
+dust-mephit,senses,passive_perception,12
+eagle,senses,passive_perception,14
+earth-elemental,senses,darkvision,60
+earth-elemental,senses,tremorsense,60
+earth-elemental,senses,passive_perception,10
+efreeti,senses,darkvision,120
+efreeti,senses,passive_perception,12
+elephant,senses,passive_perception,10
+elk,senses,passive_perception,10
+erinyes,senses,truesight,120
+erinyes,senses,passive_perception,12
+ettercap,senses,darkvision,60
+ettercap,senses,passive_perception,13
+ettin,senses,darkvision,60
+ettin,senses,passive_perception,14
+fire-elemental,senses,darkvision,60
+fire-elemental,senses,passive_perception,10
+fire-giant,senses,passive_perception,16
+flesh-golem,senses,darkvision,60
+flesh-golem,senses,passive_perception,10
+flying-snake,senses,blindsight,10
+flying-snake,senses,passive_perception,11
+flying-sword,senses,blindsight,60
+flying-sword,senses,passive_perception,7
+frog,senses,darkvision,30
+frog,senses,passive_perception,11
+frost-giant,senses,passive_perception,13
+gargoyle,senses,darkvision,60
+gargoyle,senses,passive_perception,10
+gelatinous-cube,senses,blindsight,60
+gelatinous-cube,senses,passive_perception,8
+ghast,senses,darkvision,60
+ghast,senses,passive_perception,10
+ghost,senses,darkvision,60
+ghost,senses,passive_perception,11
+ghoul,senses,darkvision,60
+ghoul,senses,passive_perception,10
+giant-ape,senses,passive_perception,14
+giant-badger,senses,darkvision,30
+giant-badger,senses,passive_perception,11
+giant-bat,senses,blindsight,60
+giant-bat,senses,passive_perception,11
+giant-boar,senses,passive_perception,8
+giant-centipede,senses,blindsight,30
+giant-centipede,senses,passive_perception,8
+giant-constrictor-snake,senses,blindsight,10
+giant-constrictor-snake,senses,passive_perception,12
+giant-crab,senses,blindsight,30
+giant-crab,senses,passive_perception,9
+giant-crocodile,senses,passive_perception,10
+giant-eagle,senses,passive_perception,14
+giant-elk,senses,passive_perception,14
+giant-fire-beetle,senses,blindsight,30
+giant-fire-beetle,senses,passive_perception,8
+giant-frog,senses,darkvision,30
+giant-frog,senses,passive_perception,12
+giant-goat,senses,passive_perception,11
+giant-hyena,senses,passive_perception,13
+giant-lizard,senses,darkvision,30
+giant-lizard,senses,passive_perception,10
+giant-octopus,senses,darkvision,60
+giant-octopus,senses,passive_perception,14
+giant-owl,senses,darkvision,120
+giant-owl,senses,passive_perception,15
+giant-poisonous-snake,senses,blindsight,10
+giant-poisonous-snake,senses,passive_perception,12
+giant-rat,senses,darkvision,60
+giant-rat,senses,passive_perception,10
+giant-rat-diseased,senses,darkvision,60
+giant-rat-diseased,senses,passive_perception,10
+giant-scorpion,senses,blindsight,60
+giant-scorpion,senses,passive_perception,9
+giant-sea-horse,senses,passive_perception,11
+giant-shark,senses,blindsight,60
+giant-shark,senses,passive_perception,13
+giant-spider,senses,blindsight,10
+giant-spider,senses,darkvision,60
+giant-spider,senses,passive_perception,10
+giant-toad,senses,darkvision,30
+giant-toad,senses,passive_perception,10
+giant-vulture,senses,passive_perception,13
+giant-wasp,senses,passive_perception,10
+giant-weasel,senses,darkvision,60
+giant-weasel,senses,passive_perception,13
+giant-wolf-spider,senses,blindsight,10
+giant-wolf-spider,senses,darkvision,60
+giant-wolf-spider,senses,passive_perception,13
+gibbering-mouther,senses,darkvision,60
+gibbering-mouther,senses,passive_perception,10
+glabrezu,senses,truesight,120
+glabrezu,senses,passive_perception,13
+gladiator,senses,passive_perception,11
+gnoll,senses,darkvision,60
+gnoll,senses,passive_perception,10
+goat,senses,passive_perception,10
+goblin,senses,darkvision,60
+goblin,senses,passive_perception,9
+gold-dragon-wyrmling,senses,blindsight,10
+gold-dragon-wyrmling,senses,darkvision,60
+gold-dragon-wyrmling,senses,passive_perception,14
+gorgon,senses,darkvision,60
+gorgon,senses,passive_perception,14
+gray-ooze,senses,blindsight,60
+gray-ooze,senses,passive_perception,8
+green-dragon-wyrmling,senses,blindsight,10
+green-dragon-wyrmling,senses,darkvision,60
+green-dragon-wyrmling,senses,passive_perception,14
+green-hag,senses,darkvision,60
+green-hag,senses,passive_perception,14
+grick,senses,darkvision,60
+grick,senses,passive_perception,12
+griffon,senses,darkvision,60
+griffon,senses,passive_perception,15
+grimlock,senses,blindsight,30
+grimlock,senses,passive_perception,13
+guard,senses,passive_perception,12
+guardian-naga,senses,darkvision,60
+guardian-naga,senses,passive_perception,14
+gynosphinx,senses,truesight,120
+gynosphinx,senses,passive_perception,18
+half-red-dragon-veteran,senses,blindsight,10
+half-red-dragon-veteran,senses,darkvision,60
+half-red-dragon-veteran,senses,passive_perception,12
+harpy,senses,passive_perception,10
+hawk,senses,passive_perception,14
+hell-hound,senses,darkvision,60
+hell-hound,senses,passive_perception,15
+hezrou,senses,darkvision,120
+hezrou,senses,passive_perception,11
+hill-giant,senses,passive_perception,12
+hippogriff,senses,passive_perception,15
+hobgoblin,senses,darkvision,60
+hobgoblin,senses,passive_perception,10
+homunculus,senses,darkvision,60
+homunculus,senses,passive_perception,10
+horned-devil,senses,darkvision,120
+horned-devil,senses,passive_perception,13
+hunter-shark,senses,darkvision,30
+hunter-shark,senses,passive_perception,12
+hydra,senses,darkvision,60
+hydra,senses,passive_perception,16
+hyena,senses,passive_perception,13
+ice-devil,senses,blindsight,60
+ice-devil,senses,darkvision,120
+ice-devil,senses,passive_perception,12
+ice-mephit,senses,darkvision,60
+ice-mephit,senses,passive_perception,12
+imp,senses,darkvision,120
+imp,senses,passive_perception,11
+invisible-stalker,senses,darkvision,60
+invisible-stalker,senses,passive_perception,18
+iron-golem,senses,darkvision,120
+iron-golem,senses,passive_perception,10
+jackal,senses,passive_perception,13
+killer-whale,senses,blindsight,120
+killer-whale,senses,passive_perception,13
+knight,senses,passive_perception,10
+kobold,senses,darkvision,60
+kobold,senses,passive_perception,8
+kraken,senses,truesight,120
+kraken,senses,passive_perception,14
+lamia,senses,darkvision,60
+lamia,senses,passive_perception,12
+lemure,senses,darkvision,120
+lemure,senses,passive_perception,10
+lich,senses,truesight,120
+lich,senses,passive_perception,19
+lion,senses,passive_perception,13
+lizard,senses,darkvision,30
+lizard,senses,passive_perception,9
+lizardfolk,senses,passive_perception,13
+mage,senses,passive_perception,11
+magma-mephit,senses,darkvision,60
+magma-mephit,senses,passive_perception,10
+magmin,senses,darkvision,60
+magmin,senses,passive_perception,10
+mammoth,senses,passive_perception,10
+manticore,senses,darkvision,60
+manticore,senses,passive_perception,11
+marilith,senses,truesight,120
+marilith,senses,passive_perception,13
+mastiff,senses,passive_perception,13
+medusa,senses,darkvision,60
+medusa,senses,passive_perception,14
+merfolk,senses,passive_perception,12
+merrow,senses,darkvision,60
+merrow,senses,passive_perception,10
+mimic,senses,darkvision,60
+mimic,senses,passive_perception,11
+minotaur,senses,darkvision,60
+minotaur,senses,passive_perception,17
+minotaur-skeleton,senses,darkvision,60
+minotaur-skeleton,senses,passive_perception,9
+mule,senses,passive_perception,10
+mummy,senses,darkvision,60
+mummy,senses,passive_perception,10
+mummy-lord,senses,darkvision,60
+mummy-lord,senses,passive_perception,14
+nalfeshnee,senses,truesight,120
+nalfeshnee,senses,passive_perception,11
+night-hag,senses,darkvision,120
+night-hag,senses,passive_perception,16
+nightmare,senses,passive_perception,11
+noble,senses,passive_perception,12
+ochre-jelly,senses,blindsight,60
+ochre-jelly,senses,passive_perception,8
+octopus,senses,darkvision,30
+octopus,senses,passive_perception,12
+ogre,senses,darkvision,60
+ogre,senses,passive_perception,8
+ogre-zombie,senses,darkvision,60
+ogre-zombie,senses,passive_perception,8
+oni,senses,darkvision,60
+oni,senses,passive_perception,14
+orc,senses,darkvision,60
+orc,senses,passive_perception,10
+otyugh,senses,darkvision,120
+otyugh,senses,passive_perception,11
+owl,senses,darkvision,120
+owl,senses,passive_perception,13
+owlbear,senses,darkvision,60
+owlbear,senses,passive_perception,13
+panther,senses,passive_perception,14
+pegasus,senses,passive_perception,16
+phase-spider,senses,darkvision,60
+phase-spider,senses,passive_perception,10
+pit-fiend,senses,truesight,120
+pit-fiend,senses,passive_perception,14
+planetar,senses,truesight,120
+planetar,senses,passive_perception,21
+plesiosaurus,senses,passive_perception,13
+poisonous-snake,senses,blindsight,10
+poisonous-snake,senses,passive_perception,10
+polar-bear,senses,passive_perception,13
+pony,senses,passive_perception,10
+priest,senses,passive_perception,13
+pseudodragon,senses,blindsight,10
+pseudodragon,senses,darkvision,60
+pseudodragon,senses,passive_perception,13
+purple-worm,senses,blindsight,30
+purple-worm,senses,tremorsense,60
+purple-worm,senses,passive_perception,9
+quasit,senses,darkvision,120
+quasit,senses,passive_perception,10
+quipper,senses,darkvision,60
+quipper,senses,passive_perception,8
+rakshasa,senses,darkvision,60
+rakshasa,senses,passive_perception,13
+rat,senses,darkvision,30
+rat,senses,passive_perception,10
+raven,senses,passive_perception,13
+red-dragon-wyrmling,senses,blindsight,10
+red-dragon-wyrmling,senses,darkvision,60
+red-dragon-wyrmling,senses,passive_perception,14
+reef-shark,senses,blindsight,30
+reef-shark,senses,passive_perception,12
+remorhaz,senses,darkvision,60
+remorhaz,senses,tremorsense,60
+remorhaz,senses,passive_perception,10
+rhinoceros,senses,passive_perception,11
+riding-horse,senses,passive_perception,10
+roc,senses,passive_perception,14
+roper,senses,darkvision,60
+roper,senses,passive_perception,16
+rug-of-smothering,senses,blindsight,60
+rug-of-smothering,senses,passive_perception,6
+rust-monster,senses,darkvision,60
+rust-monster,senses,passive_perception,11
+saber-toothed-tiger,senses,passive_perception,13
+sahuagin,senses,darkvision,120
+sahuagin,senses,passive_perception,15
+salamander,senses,darkvision,60
+salamander,senses,passive_perception,10
+satyr,senses,passive_perception,12
+scorpion,senses,blindsight,10
+scorpion,senses,passive_perception,9
+scout,senses,passive_perception,15
+sea-hag,senses,darkvision,60
+sea-hag,senses,passive_perception,11
+sea-horse,senses,passive_perception,10
+shadow,senses,darkvision,60
+shadow,senses,passive_perception,10
+shambling-mound,senses,blindsight,60
+shambling-mound,senses,passive_perception,10
+shield-guardian,senses,blindsight,10
+shield-guardian,senses,darkvision,60
+shield-guardian,senses,passive_perception,10
+shrieker,senses,blindsight,30
+shrieker,senses,passive_perception,6
+silver-dragon-wyrmling,senses,blindsight,10
+silver-dragon-wyrmling,senses,darkvision,60
+silver-dragon-wyrmling,senses,passive_perception,14
+skeleton,senses,darkvision,60
+skeleton,senses,passive_perception,9
+solar,senses,truesight,120
+solar,senses,passive_perception,24
+specter,senses,darkvision,60
+specter,senses,passive_perception,10
+spider,senses,darkvision,30
+spider,senses,passive_perception,12
+spirit-naga,senses,darkvision,60
+spirit-naga,senses,passive_perception,12
+sprite,senses,passive_perception,13
+spy,senses,passive_perception,16
+steam-mephit,senses,darkvision,60
+steam-mephit,senses,passive_perception,10
+stirge,senses,darkvision,60
+stirge,senses,passive_perception,9
+stone-giant,senses,darkvision,60
+stone-giant,senses,passive_perception,14
+stone-golem,senses,darkvision,120
+stone-golem,senses,passive_perception,10
+storm-giant,senses,passive_perception,19
+succubus-incubus,senses,darkvision,60
+succubus-incubus,senses,passive_perception,15
+swarm-of-bats,senses,blindsight,60
+swarm-of-bats,senses,passive_perception,11
+swarm-of-beetles,senses,blindsight,10
+swarm-of-beetles,senses,passive_perception,8
+swarm-of-centipedes,senses,blindsight,10
+swarm-of-centipedes,senses,passive_perception,8
+swarm-of-insects,senses,blindsight,10
+swarm-of-insects,senses,passive_perception,8
+swarm-of-poisonous-snakes,senses,blindsight,10
+swarm-of-poisonous-snakes,senses,passive_perception,10
+swarm-of-quippers,senses,darkvision,60
+swarm-of-quippers,senses,passive_perception,8
+swarm-of-rats,senses,darkvision,30
+swarm-of-rats,senses,passive_perception,10
+swarm-of-ravens,senses,passive_perception,15
+swarm-of-spiders,senses,blindsight,10
+swarm-of-spiders,senses,passive_perception,8
+swarm-of-wasps,senses,blindsight,10
+swarm-of-wasps,senses,passive_perception,8
+tarrasque,senses,blindsight,120
+tarrasque,senses,passive_perception,10
+thug,senses,passive_perception,10
+tiger,senses,darkvision,60
+tiger,senses,passive_perception,13
+treant,senses,passive_perception,13
+tribal-warrior,senses,passive_perception,10
+triceratops,senses,passive_perception,10
+troll,senses,darkvision,60
+troll,senses,passive_perception,12
+tyrannosaurus-rex,senses,passive_perception,14
+unicorn,senses,darkvision,60
+unicorn,senses,passive_perception,13
+vampire-bat,senses,darkvision,120
+vampire-bat,senses,passive_perception,17
+vampire-mist,senses,darkvision,120
+vampire-mist,senses,passive_perception,17
+vampire-spawn,senses,darkvision,60
+vampire-spawn,senses,passive_perception,13
+vampire-vampire,senses,darkvision,120
+vampire-vampire,senses,passive_perception,17
+veteran,senses,passive_perception,12
+violet-fungus,senses,blindsight,30
+violet-fungus,senses,passive_perception,6
+vrock,senses,darkvision,120
+vrock,senses,passive_perception,11
+vulture,senses,passive_perception,13
+warhorse,senses,passive_perception,11
+warhorse-skeleton,senses,darkvision,60
+warhorse-skeleton,senses,passive_perception,9
+water-elemental,senses,darkvision,60
+water-elemental,senses,passive_perception,10
+weasel,senses,passive_perception,13
+werebear-bear,senses,passive_perception,17
+werebear-human,senses,passive_perception,17
+werebear-hybrid,senses,passive_perception,17
+wereboar-boar,senses,passive_perception,12
+wereboar-human,senses,passive_perception,12
+wereboar-hybrid,senses,passive_perception,12
+wererat-human,senses,passive_perception,12
+wererat-hybrid,senses,passive_perception,12
+wererat-rat,senses,darkvision,60
+wererat-rat,senses,passive_perception,12
+weretiger-human,senses,darkvision,60
+weretiger-human,senses,passive_perception,15
+weretiger-hybrid,senses,darkvision,60
+weretiger-hybrid,senses,passive_perception,15
+weretiger-tiger,senses,darkvision,60
+weretiger-tiger,senses,passive_perception,15
+werewolf-human,senses,passive_perception,14
+werewolf-hybrid,senses,passive_perception,14
+werewolf-wolf,senses,passive_perception,14
+white-dragon-wyrmling,senses,blindsight,10
+white-dragon-wyrmling,senses,darkvision,60
+white-dragon-wyrmling,senses,passive_perception,14
+wight,senses,darkvision,60
+wight,senses,passive_perception,13
+will-o-wisp,senses,darkvision,120
+will-o-wisp,senses,passive_perception,12
+winter-wolf,senses,passive_perception,15
+wolf,senses,passive_perception,13
+worg,senses,darkvision,60
+worg,senses,passive_perception,14
+wraith,senses,darkvision,60
+wraith,senses,passive_perception,12
+wyvern,senses,darkvision,60
+wyvern,senses,passive_perception,14
+xorn,senses,darkvision,60
+xorn,senses,tremorsense,60
+xorn,senses,passive_perception,16
+young-black-dragon,senses,blindsight,30
+young-black-dragon,senses,darkvision,120
+young-black-dragon,senses,passive_perception,16
+young-blue-dragon,senses,blindsight,30
+young-blue-dragon,senses,darkvision,120
+young-blue-dragon,senses,passive_perception,19
+young-brass-dragon,senses,blindsight,30
+young-brass-dragon,senses,darkvision,120
+young-brass-dragon,senses,passive_perception,16
+young-bronze-dragon,senses,blindsight,30
+young-bronze-dragon,senses,darkvision,120
+young-bronze-dragon,senses,passive_perception,17
+young-copper-dragon,senses,blindsight,30
+young-copper-dragon,senses,darkvision,120
+young-copper-dragon,senses,passive_perception,17
+young-gold-dragon,senses,blindsight,30
+young-gold-dragon,senses,darkvision,120
+young-gold-dragon,senses,passive_perception,19
+young-green-dragon,senses,blindsight,30
+young-green-dragon,senses,darkvision,120
+young-green-dragon,senses,passive_perception,17
+young-red-dragon,senses,blindsight,30
+young-red-dragon,senses,darkvision,120
+young-red-dragon,senses,passive_perception,18
+young-silver-dragon,senses,blindsight,30
+young-silver-dragon,senses,darkvision,120
+young-silver-dragon,senses,passive_perception,18
+young-white-dragon,senses,blindsight,30
+young-white-dragon,senses,darkvision,120
+young-white-dragon,senses,passive_perception,16
+zombie,senses,darkvision,60
+zombie,senses,passive_perception,8
