@@ -83,11 +83,11 @@ else:
 monster_id= dfmaster['Monster Id'][0]
 
 
-#grab selected table values
+#grab selected table values for the following stat block dfs
 df_attk= pd.read_sql(f"SELECT * FROM monster_actions where monster_id = '{monster_id}' order by action_type asc, multi_attack asc",c.SQL_URL)
 df_attk.columns=df_attk.columns.str.title().str.strip().str.replace('_',' ')
 #
-df_res= pd.read_sql(f"SELECT * FROM monster_resists where monster_id = '{monster_id}'",c.SQL_URL)
+df_res= pd.read_sql(f"SELECT * FROM monster_resists where monster_id = '{monster_id}' order by type asc",c.SQL_URL)
 df_res.columns=df_res.columns.str.title().str.strip().str.replace('_',' ')
 #
 df_char= pd.read_sql(f"SELECT * FROM monster_characteristics where monster_id = '{monster_id}' order by characteristic desc",c.SQL_URL)
@@ -101,12 +101,13 @@ for index, row in df_char.iloc[:,1:].iterrows():
         for column_name, cell_value in row.items():
             if cell_value  and column_name!= 'Characteristic':
                 if type(cell_value)==float:
-                    senses+= f" {str(cell_value).replace('_',' ')} Feet "
+                    if (cell_value)>0:
+                        senses+= f" {str(cell_value).replace('_',' ')} Feet "
                 else:
                     senses+= f"🔎{str(cell_value).replace('_',' ')} "
         senses+="\n\r" 
    
-col2t.write(senses)
+col1t.write(senses)
 
 #------------------stylized Language block
 lang=''
@@ -116,16 +117,16 @@ for index, row in df_char.iloc[:,1:].iterrows():
         for column_name, cell_value in row.items():
             if cell_value  and column_name!= 'Characteristic':
                 if type(cell_value)==float:
-                    lang+= f" {str(cell_value).replace('_',' ')} Feet "
+                    if(cell_value)>0:
+                        lang+= f" {str(cell_value).replace('_',' ')} Feet "
                 else:
                     lang+= f"🗣️{str(cell_value).replace('_',' ')} "
         lang+="\n\r" 
    
-col2t.write(lang)
+col1t.write(lang)
 
 #-----------------Proficiency Block
 
-#------------------stylized Language block
 prof=''
 for index, row in df_char.iloc[:,1:].iterrows():
     #We did a sort query to make characteristic blocks
@@ -139,6 +140,46 @@ for index, row in df_char.iloc[:,1:].iterrows():
         prof+="\n\r" 
    
 col2t.write(prof)
+#---------------Vulns------------------
+dv=''
+for index, row in df_res.iloc[:,1:].iterrows():
+    #We did a sort query to make characteristic blocks
+    if row['Type'] == 'damage_resistances':
+        dv+=f"💔{str(row['Type']).replace('_',' ').title()} : {str(row['Value']).replace('_',' ').title()}"
+    dv+="\n\r" 
+   
+col2t.write(dv)
+
+#---------------Resistances------------------
+dr=''
+for index, row in df_res.iloc[:,1:].iterrows():
+    #We did a sort query to make characteristic blocks
+    if row['Type'] == 'damage_resistances':
+        dr+=f"🛡️{str(row['Type']).replace('_',' ').title()} : {str(row['Value']).replace('_',' ').title()}"
+    dr+="\n\r" 
+   
+col2t.write(dr)
+
+#---------------Immunities------------------
+di=''
+for index, row in df_res.iloc[:,1:].iterrows():
+    #We did a sort query to make characteristic blocks
+    if row['Type'] == 'damage_immunities':
+        di+=f"🪨{str(row['Type']).replace('_',' ').title()} : {str(row['Value']).replace('_',' ').title()}"
+    di+="\n\r" 
+   
+col2t.write(di)
+
+#---------------Conditional Immunities------------------
+cond=''
+for index, row in df_res.iloc[:,1:].iterrows():
+    #We did a sort query to make characteristic blocks
+    if row['Type'] == 'condition_immunities':
+        cond+=f"☔{str(row['Type']).replace('_',' ').title()} : {str(row['Value']).replace('_',' ').title()}"
+    cond+="\n\r" 
+   
+col2t.write(cond)
+
 
 #------------------Action Block
 df_attk = df_attk[['Monster Id','Action Type','Action Name','Multi Attack','Damage Dice','Attack Bonus','Damage Type', 'Dc Type', 'Dc Value','Descrip']]
