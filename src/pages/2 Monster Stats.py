@@ -11,7 +11,7 @@ sys.path.insert(0, filepath)
 from dnd_sql import PGSQL 
 c = PGSQL()
 df = pd.read_sql("select * from monsters",c.SQL_URL)
-df_histo = df[['size','alignment','xp','natural_ac','challenge_rating','strength','dexterity','intelligence','wisdom','constitution','charisma']]
+df_histo = df[['hit_points','size','alignment','xp','natural_ac','challenge_rating','strength','dexterity','intelligence','wisdom','constitution','charisma']]
 
 
 df_histo.columns= df_histo.columns.str.title().str.strip().str.replace('_',' ')
@@ -25,7 +25,7 @@ if histo:
                  {histo.title()} could not be plotted into a histogram!
                  ''')
 
-df_scatter = df[['xp','natural_ac','challenge_rating','strength','dexterity','intelligence','wisdom','constitution','charisma']]
+df_scatter = df[['hit_points','xp','natural_ac','challenge_rating','strength','dexterity','intelligence','wisdom','constitution','charisma']]
 df_scatter.columns= df_scatter.columns.str.title().str.strip().str.replace('_',' ')
 
 col1,col2 = st.columns(2)

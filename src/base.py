@@ -10,6 +10,9 @@ class Base:
     """
     Class handles all connection to the API object and returns a dataframe
     from it's initialization. 
+
+    It also cleans the data and stores it into CSVs so they can to be sent
+    to SQL in the dnd_sql.py file. 
     """
 
     def __init__(self):
@@ -43,6 +46,7 @@ class Base:
         print('monster resists complete')
         self.get_monster_characteristics()
         print('monster characteristics complete')
+        self.get_monster_actions()
 
     def get_monster_master(self):
         '''Scraping data from the API and creating a Dataframe from it'''
@@ -80,43 +84,44 @@ class Base:
         self.df_mon['speed_fly']=fly
         self.df_mon['speed_burrow']=burr
 
-        self.mon_csv=self.df_mon[['index','name','size','type','alignment','natural_ac','speed_walk','speed_swim','speed_fly','speed_burrow','strength','dexterity','constitution','intelligence','wisdom','charisma','challenge_rating','xp','image','desc']]
-        self.mon_csv.rename(columns={'index': 'monster_id'}, inplace=True)
-        self.mon_csv.rename(columns={'desc': 'descrip'}, inplace=True)
-        self.mon_csv.to_csv(f'{folder_dir}/monsters.csv',index=False)
+        self.df_mon=self.df_mon[['index','name','hit_points','size','type','alignment','natural_ac','speed_walk','speed_swim','speed_fly','speed_burrow','strength','dexterity','constitution','intelligence','wisdom','charisma','challenge_rating','xp','image','desc']]
+        self.df_mon.rename(columns={'index': 'monster_id'}, inplace=True)
+        self.df_mon.rename(columns={'desc': 'descrip'}, inplace=True)
+        self.df_mon.to_csv(f'{folder_dir}/monsters.csv',index=False)
 
     def get_monster_resists(self):
-        #now lets loop through and create a massive list for this.
-        #empty lists to 
+        #df list
         resistances=[]
         #df headers
         h=['monster_id','type','value']
         #iterate through the resist columns and strip the values
         #some values are dictionaries, some values are lists
         #I originally wrote this to be very fast with multiple functions to avoid
-        #double for loops but since i was only running this like, ONCE.
-        #I opted for my original more readable solution as I having trouble 
+        #double for loops but since i was only running this rarely and it was buggy
+        #I opted for my original more readable solution as I was having trouble 
         #remembering what the point all of the functions were for to begin with.
         for imm in self.df_mon_mit.values:
             for j in range(1,len(self.df_mon_mit.keys())):
+                #is there a value
                 if len(imm[j])>0:
+                    #was it stored as a dictionary?
                     if type(imm[j][0])==dict:
                         for i in imm[j]:
                             resistances.append([imm[0],self.df_mon_mit.columns[j],i['name']])
                     else:
+                        #for all values in the list grab
                         for i in imm[j]:
                             resistances.append([imm[0],self.df_mon_mit.columns[j],i])
                     
 
 
         self.df_resist = pd.DataFrame(resistances,columns=h)
-        self.df_resist.head()
         self.df_resist.to_csv(f'{folder_dir}/monster_resists.csv',index=False)
 
     def get_monster_characteristics(self):
         features=[]
         h=['monster_id','characteristic','attribute_name','value']
-        #due to the varying degrees of how the data is stored there is only messy way to clean it up
+        #due to the varying degrees of how the data is stored there is only a messy way to clean it up
 
         #-----------------------proficiencies---------------------------
         for imm in self.df_mon_facet[['index','proficiencies']].values:
@@ -162,8 +167,7 @@ class Base:
 
         self.df_characteristics= pd.DataFrame(features,columns=h)
 
-        self.df_characteristics.head()
-        self.df_characteristics.to_csv(f'{folder_dir}\monster_characteristics.csv',index=False)
+        self.df_characteristics.to_csv(f'{folder_dir}/monster_characteristics.csv',index=False)
 
     def get_monster_actions(self):
         actions=[]
@@ -171,7 +175,7 @@ class Base:
             for imm in self.df_mon_action.values:
                     #all dictionaries are in a list if not NAN
                     if type(imm[cols])==list:
-                        #iterate through listed dictionary
+                        #iterate through listed dictionary for normal attacks ( we are converting multiattack to a field value not a unique record)
                         for i in imm[cols]:
                             if (i['name']!='Multiattack' and i['name']!='Breath Weapons') :
                                 # try block to iterate through the dictionary and parse the data
@@ -281,8 +285,6 @@ class Base:
         #create our data csv    
         self.df_actions.to_csv(f'{folder_dir}/monster_actions.csv',index=False)
                 
-        self.df_actions.head()
-
 
 if __name__ == '__main__':
     c= Base()
