@@ -54,25 +54,22 @@ col1t.markdown("__________________________________")
 
 
 #col 2----------- Logic ----------------   
-try:
-    mimage = dfmaster['Image'][0]
+
+mimage = dfmaster['Image'][0]
+mtype =dfmaster['Type'][0]
+if mimage!= None:
     col2t.image(f'https://www.dnd5eapi.co{mimage}')
+else:   
+    col2t.write("AI New Generating Image")
+    col2t.image(generateImage(selection,mtype))
     
-except:
-   
-    if os.path.isfile(f'{folder_dir}\{selection}.png'):
-        col2t.image(f'{folder_dir}\{selection}.png')
-        col2t.write("AI pre-Generated Image")
-    else:
-        col2t.image(generateImage(selection))
-        col2t.write("AI New Generated Image")
 
 #Description Block, completely worthless right now
 col2t.markdown("<h3 style='text-align: center;'>Description </h3>", unsafe_allow_html=True)
 if ''.join(str(val) for val in dfmaster['Descrip'].values) != "None":
     col2t.write(''.join(str(val) for val in dfmaster['Descrip'].values))
-elif os.path.isfile(f'{folder_dir}\{selection}.txt'):
-    f = open(f'{folder_dir}\{selection}.txt','r')
+elif os.path.isfile(f'{folder_dir}/{selection}.txt'):
+    f = open(f'{folder_dir}/{selection}.txt','r')
     col2t.write(f.read())
     col2t.write('Deep AI pre-generated description')
 else:
