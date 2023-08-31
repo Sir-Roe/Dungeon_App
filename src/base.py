@@ -13,6 +13,16 @@ class Base:
 
     It also cleans the data and stores it into CSVs so they can to be sent
     to SQL in the dnd_sql.py file. 
+    
+    there are 4 functions being called:
+    get_monster_master() 
+        create master data for the monster table and stores to a csv
+    get_monster_resists()
+        creates the monster resist data and stores to a csv
+    get_monster_characteristics()
+        creates the monster characteristics data and stores to a csv
+    get_monster_actions()
+        creates the monster action data and store to a csv
     """
 
     def __init__(self):
@@ -40,6 +50,7 @@ class Base:
         #action table
         self.df_mon_action= self.df_mon[['index','actions','special_abilities','legendary_actions']]
 
+        #call in order all of the monster cleaning table processess
         self.get_monster_master() 
         print('monsters master complete')
         self.get_monster_resists()
@@ -60,7 +71,7 @@ class Base:
         burr=[]
         #api was designed to not have null if it does not exist so try except 
         #is the only way to grab every record or fill it with null to maintain
-        #SQL data normalization
+        #SQL data normalization since using the same key name like MOVEMENT was to unreasonable for the api developer.
         for s in self.df_mon.speed:
             try:
                 walk.append(s['walk'].split(" ")[0])
@@ -78,7 +89,7 @@ class Base:
                 burr.append(s['burrow'].split(" ")[0])
             except:
                 burr.append(np.nan)
-
+        #add the new columns for the movement speed - this can be refactored to a loop with more time.
         self.df_mon['speed_walk']=walk
         self.df_mon['speed_swim']=swim
         self.df_mon['speed_fly']=fly
@@ -134,7 +145,7 @@ class Base:
         #-----------------------languagess-----------------------------
         for imm in self.df_mon_facet[['index','languages']].values:
             if type(imm[1])== str:
-                #these for some reason are comma split as a string and not a list
+                #these for some reason are comma split as a string and not a list so unique logic needed here
                 for i in imm[1].split(','):
                     #very weird one off case of telepgathy having a value but not listed as a value
                     #so we extract it from the string
@@ -148,13 +159,14 @@ class Base:
 
         #--------------------------grab forms -------------------
         for imm in self.df_mon_facet[['index','forms']].values:
-
+            #looks for non nulls and appens values
             if type(imm[1])!= float:
                 for i in imm[1]:
                     features.append([imm[0],'forms',i['name'],np.nan])
                 
         #-----------------------grab sense data-------------------
         for imm in self.df_mon_facet[['index','senses']].values:
+            #for some odd reason... these were not stored as nulls in the API just empty lists
             if len(imm)>0:
                 for k,v in imm[1].items():
                     if type(v)==str:
@@ -179,6 +191,10 @@ class Base:
                         for i in imm[cols]:
                             if (i['name']!='Multiattack' and i['name']!='Breath Weapons') :
                                 # try block to iterate through the dictionary and parse the data
+                                #this is something I notice that needs to be done because they do not
+                                #keep the keys in the data if value is null but I NEED to place null if the key
+                                #is not present, but trying to reach the key value will create an error
+                                #im certain there is a better way to do this.
                                 name = i['name']
                                 #--------------------------------------------------------------------
                                 try:
@@ -186,6 +202,9 @@ class Base:
                                 except:
                                     AB = np.nan
                                 #--------------------------------------------------------------------
+                                #this is a very rare occourence and I decided to just join the composite damage types since
+                                #I did not feel it warrented a column with damage type as "composite,single, or none" and
+                                #the hassle to chase down all relative composite data types.... it doesnt make sense.
                                 try:
                                     damagetype = " & ".join(j['damage_type']['name'] for j in i['damage'])
                                 except:
@@ -218,6 +237,10 @@ class Base:
                     
                                 actions.append([imm[0],self.df_mon_action.columns[cols],i['name'],damagetype,AB,damagedice,dc_type,dc_value,np.nan,'',desc])
         #append the very nested dragon logic
+        #breath attack accesses a very unique and not always present field of options
+        #options are things like, sleep breath or poison breaht, YOU CHOOSE
+        #each option has totally different outcomes in terms of damage, damage type, dice, and dc saving throws.
+        #for this reason I believed they merited their own RECORDS of an action. 
         for cols in range(1,4):
             for imm in self.df_mon_action.values:
                     #all dictionaries are in a list if not NAN
@@ -263,7 +286,9 @@ class Base:
         h=['monster_id','action_type','action_name','damage_type','attack_bonus','damage_dice','dc_type','dc_value','multi_attack','multi_attack_descrip','descrip']
         self.df_actions = pd.DataFrame(actions,columns=h)
         #bring in our multi attack logic to iterate over all present abilities
-
+        #multiattacks in my opinion do not deseve their own records.
+        #they can simply just be, null or the count of attacks of that action if a multiattack
+        #is used by the monster.
         multi=[]
 
         for cols in range(1,4):
