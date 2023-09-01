@@ -32,6 +32,16 @@ st.text("""
 
 st.image('https://logos-world.net/wp-content/uploads/2021/12/DnD-Logo.png',width=400)
 
+st.header("Future Goals:")
+
+st.text("""
+        >Write New Create statements in SQL.
+        >Correct Upsert statements for a more stable SQL environment
+        >Dynamic functions to deal with nested data
+        >Add the remaining tables (spells,classes,stats,equipment,etc.)
+        >Create a build character functionality.
+        >make a mini game?
+        """)
 
 st.text("""
         A special thanks to the https://www.dnd5eapi.co/

@@ -22,9 +22,9 @@ st.text("Logan Roe's capstone application utilizing the following:")
 st.text(""">Streamlit 
 >Python
 >Pandas
->Postgres SQL
->D&D 5e API
 >Plotly
+>PostgresSql
+>D&D 5e API
 >Deep AI API""")
 
 st.header("Here are the different pages of my application:")
@@ -41,4 +41,4 @@ st.text('Simple visualizations of Monster stats by chosen slicers.')
 
 st.subheader('Summary')
 
-st.text('Simple visualizations of Monster stats by chosen slicers.')
+st.text('Summary of the tools used and goals for the application.')
